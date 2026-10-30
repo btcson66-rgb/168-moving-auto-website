@@ -1,32 +1,104 @@
 """Generate a revision-specific UI review and visual comparison, without editing source articles."""
-import json,html,shutil
+
+import json, html, shutil
 from pathlib import Path
-P=Path(__file__).parent;D=P/'dist';R=P/'research';out=D/'reports/ui';out.mkdir(parents=True,exist_ok=True);h=html.escape
-before=json.loads((P/'.taste-skill/before/report.json').read_text(encoding='utf8'));after=json.loads((P/'.taste-skill/final/report.json').read_text(encoding='utf8'));english=json.loads((P/'.taste-skill/final-en/report.json').read_text(encoding='utf8'));qa=json.loads((R/'qa.json').read_text(encoding='utf8'))
-fail=lambda r:sum(x['level']=='FAIL' for x in r['findings'])
-if fail(after) or fail(english):raise SystemExit('Final taste checks still contain FAIL findings; report not finalized.')
-for which,folder in [('before','before'),('after','final')]:
- for viewport in ['desktop','tablet','mobile']:
-  shutil.copy(P/'.taste-skill'/folder/(viewport+'-fold.jpg'),out/(which+'-'+viewport+'.jpg'))
-for name,obj in [('taste-before',before),('taste-after',after),('taste-english',english),('browser-qa',qa)]:
- (out/(name+'.json')).write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf8')
-shutil.copy(R/'ui-original-preservation.json',out/'original-preservation.json');shutil.copy(R/'ui-design-notes.md',out/'design-notes.md');shutil.copy(R/'responsive-ui.json',out/'responsive-check.json')
-rows=[
- ['首頁難以一眼理解服務','長情緒標語、彩色強調字、許多英文小標。','改為「車與家，一起出發」／Car + home. One move.，旁邊直接放真實裝車照片。'],
- ['閱讀字體過小','taste量測主要內文12px、65個小於13px的文字區塊。','主要內文16px，次要資訊14px；手機保留少數清楚字級，文字使用深色墨色。'],
- ['照片小而重複','同一張貨車照片在多區反覆使用，裝飾線框佔畫面。','新增原站實際裝車照片作主視覺，移除裝飾線框與遮字標籤；來源集中在頁尾。'],
- ['各區都是相似卡片','服務、流程與文章重複等寬卡片排列。','服務改主照片＋列表，流程改有序清單，指南改編輯目錄；手機次要服務改圖片與文字並排。'],
- ['第一屏主動作不夠直接','主按鈕先帶去服務區，詢價在較下方。','主按鈕直接開詢價單，三語375px手機及桌機第一屏均可見；移除重複次要動作。'],
- ['手機觸控與閱讀','多處小標、狹小按鈕，表單與文章字級不同。','移除可能遮住內容的浮動氣泡，詢價改保留在手機選單；選單、關閉、服務切換等主要控制至少44px；輸入欄16px避免手機聚焦放大，ZIP與日期保持驗證。'],
- ['導覽狀態不清楚','捲動或進入指南後，主選單沒有目前位置提示。','加入目前區段與指南頁狀態；手機選單支援Escape關閉，aria-expanded與按鈕名稱同步。'],
- ['顯示動態與失效風險','原頁幾乎沒有操作與區段回饋。','加入短幅進場、照片到位與按鈕按壓回饋；減少動態設定關閉動畫，JavaScript失效時不隱藏正文。'],
- ['資料來源與事實','設計改善可能讓舊案例被誤看成新承諾。','保留Demo、未送出提示與原文封存說明；未添加評分、時程、價格或新客戶見證。']]
-table='<div class="scroll"><table><thead><tr><th>問題</th><th>修改前</th><th>本次調整</th></tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+h(c)+'</td>' for c in row)+'</tr>' for row in rows)+'</tbody></table></div>'
-axe=sum(len(a['violations']) for a in qa['accessibility']);resp=json.loads((R/'responsive-ui.json').read_text(encoding='utf8'))
-body=f'''<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>168 UI／UX 優化報告與前後對照</title><style>*{{box-sizing:border-box}}body{{margin:0;color:#142e37;background:#f7f8f4;font:16px/1.9 Arial,'Microsoft JhengHei',sans-serif}}main{{max-width:1260px;padding:45px 28px 90px;margin:auto}}h1{{font-size:42px;line-height:1.4;letter-spacing:-1px}}h2{{font-size:30px;line-height:1.5;margin:60px 0 24px}}h3{{font-size:22px}}p{{max-width:75ch}}a{{color:#345b3e}}.note{{padding:24px 30px;background:#eaf0e9}}.stats{{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:30px 0}}.stats div{{padding:24px;background:#142e37;color:white}}.stats strong{{display:block;font-size:38px;line-height:1.5;color:#d4ef78}}.compare{{display:grid;grid-template-columns:1fr 1fr;gap:20px}}figure{{margin:0;background:#eaf0e9;padding:14px}}img{{display:block;width:100%;height:auto}}figcaption{{font-size:14px;padding:10px 0}}.mobile img{{width:min(100%,390px);margin:auto}}.scroll{{overflow:auto}}table{{border-collapse:collapse;background:white;font-size:15px;width:100%}}th,td{{padding:20px;text-align:left;vertical-align:top;border-bottom:2px solid #eaf0e9}}th{{background:#eaf0e9}}code{{background:#eaf0e9;padding:3px 5px;overflow-wrap:anywhere}}li{{margin:12px 0}}.files a{{display:block;padding:10px 0}}@media(max-width:650px){{main{{padding:28px 20px 70px}}h1{{font-size:32px}}h2{{font-size:26px}}.stats{{grid-template-columns:1fr}}.compare{{grid-template-columns:1fr}}table{{min-width:800px}}}}</style></head><body><main><a href="/zh-hant/">← 查看更新後Demo</a> · <a href="/en/">English</a> · <a href="/zh-hans/">简体中文</a> · <a href="/report.html">原內容修改報告</a><h1>更清楚地看見服務，<br>更直接地開始詢價。</h1><p>2026-10-30 · taste skill、redesign skill、web-design-reviewer 檢查與優化。這是本次版本的實測與設計判斷；不是第三方評等或業主已驗收。</p><div class="stats"><div><strong>{fail(before)} → {fail(after)}</strong>繁體首頁taste FAIL項目</div><div><strong>{axe}</strong>三語首頁axe自動違規</div><div><strong>{len(resp)}</strong>三語 × 4寬度首頁檢查</div></div><div class="note">保留原本純HTML／CSS／JavaScript、三語路徑、SEO／AEO結構、205篇原文與詢價資料流程。本次調整呈現與操作，未更動原文正文，未添加承運保證、價格或見證。兩個原網站未更動，仍是本機Demo。</div>
+
+P = Path(__file__).parent
+D = P / "dist"
+R = P / "research"
+out = D / "reports/ui"
+out.mkdir(parents=True, exist_ok=True)
+h = html.escape
+before = json.loads((P / ".taste-skill/before/report.json").read_text(encoding="utf8"))
+after = json.loads((P / ".taste-skill/final/report.json").read_text(encoding="utf8"))
+english = json.loads(
+    (P / ".taste-skill/final-en/report.json").read_text(encoding="utf8")
+)
+qa = json.loads((R / "qa.json").read_text(encoding="utf8"))
+fail = lambda r: sum(x["level"] == "FAIL" for x in r["findings"])
+if fail(after) or fail(english):
+    raise SystemExit(
+        "Final taste checks still contain FAIL findings; report not finalized."
+    )
+for which, folder in [("before", "before"), ("after", "final")]:
+    for viewport in ["desktop", "tablet", "mobile"]:
+        shutil.copy(
+            P / ".taste-skill" / folder / (viewport + "-fold.jpg"),
+            out / (which + "-" + viewport + ".jpg"),
+        )
+for name, obj in [
+    ("taste-before", before),
+    ("taste-after", after),
+    ("taste-english", english),
+    ("browser-qa", qa),
+]:
+    (out / (name + ".json")).write_text(
+        json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf8"
+    )
+shutil.copy(R / "ui-original-preservation.json", out / "original-preservation.json")
+shutil.copy(R / "ui-design-notes.md", out / "design-notes.md")
+shutil.copy(R / "responsive-ui.json", out / "responsive-check.json")
+rows = [
+    [
+        "首頁難以一眼理解服務",
+        "長情緒標語、彩色強調字、許多英文小標。",
+        "改為「車與家，一起出發」／Car + home. One move.，旁邊直接放真實裝車照片。",
+    ],
+    [
+        "閱讀字體過小",
+        "taste量測主要內文12px、65個小於13px的文字區塊。",
+        "主要內文16px，次要資訊14px；手機保留少數清楚字級，文字使用深色墨色。",
+    ],
+    [
+        "照片小而重複",
+        "同一張貨車照片在多區反覆使用，裝飾線框佔畫面。",
+        "新增原站實際裝車照片作主視覺，移除裝飾線框與遮字標籤；來源集中在頁尾。",
+    ],
+    [
+        "各區都是相似卡片",
+        "服務、流程與文章重複等寬卡片排列。",
+        "服務改主照片＋列表，流程改有序清單，指南改編輯目錄；手機次要服務改圖片與文字並排。",
+    ],
+    [
+        "第一屏主動作不夠直接",
+        "主按鈕先帶去服務區，詢價在較下方。",
+        "主按鈕直接開詢價單，三語375px手機及桌機第一屏均可見；移除重複次要動作。",
+    ],
+    [
+        "手機觸控與閱讀",
+        "多處小標、狹小按鈕，表單與文章字級不同。",
+        "移除可能遮住內容的浮動氣泡，詢價改保留在手機選單；選單、關閉、服務切換等主要控制至少44px；輸入欄16px避免手機聚焦放大，ZIP與日期保持驗證。",
+    ],
+    [
+        "導覽狀態不清楚",
+        "捲動或進入指南後，主選單沒有目前位置提示。",
+        "加入目前區段與指南頁狀態；手機選單支援Escape關閉，aria-expanded與按鈕名稱同步。",
+    ],
+    [
+        "顯示動態與失效風險",
+        "原頁幾乎沒有操作與區段回饋。",
+        "加入短幅進場、照片到位與按鈕按壓回饋；減少動態設定關閉動畫，JavaScript失效時不隱藏正文。",
+    ],
+    [
+        "資料來源與事實",
+        "設計改善可能讓舊案例被誤看成新承諾。",
+        "保留Demo、未送出提示與原文封存說明；未添加評分、時程、價格或新客戶見證。",
+    ],
+]
+table = (
+    '<div class="scroll"><table><thead><tr><th>問題</th><th>修改前</th><th>本次調整</th></tr></thead><tbody>'
+    + "".join(
+        "<tr>" + "".join("<td>" + h(c) + "</td>" for c in row) + "</tr>" for row in rows
+    )
+    + "</tbody></table></div>"
+)
+axe = sum(len(a["violations"]) for a in qa["accessibility"])
+resp = json.loads((R / "responsive-ui.json").read_text(encoding="utf8"))
+body = f"""<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>168 UI／UX 優化報告與前後對照</title><style>*{{box-sizing:border-box}}body{{margin:0;color:#142e37;background:#f7f8f4;font:16px/1.9 Arial,'Microsoft JhengHei',sans-serif}}main{{max-width:1260px;padding:45px 28px 90px;margin:auto}}h1{{font-size:42px;line-height:1.4;letter-spacing:-1px}}h2{{font-size:30px;line-height:1.5;margin:60px 0 24px}}h3{{font-size:22px}}p{{max-width:75ch}}a{{color:#345b3e}}.note{{padding:24px 30px;background:#eaf0e9}}.stats{{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:30px 0}}.stats div{{padding:24px;background:#142e37;color:white}}.stats strong{{display:block;font-size:38px;line-height:1.5;color:#d4ef78}}.compare{{display:grid;grid-template-columns:1fr 1fr;gap:20px}}figure{{margin:0;background:#eaf0e9;padding:14px}}img{{display:block;width:100%;height:auto}}figcaption{{font-size:14px;padding:10px 0}}.mobile img{{width:min(100%,390px);margin:auto}}.scroll{{overflow:auto}}table{{border-collapse:collapse;background:white;font-size:15px;width:100%}}th,td{{padding:20px;text-align:left;vertical-align:top;border-bottom:2px solid #eaf0e9}}th{{background:#eaf0e9}}code{{background:#eaf0e9;padding:3px 5px;overflow-wrap:anywhere}}li{{margin:12px 0}}.files a{{display:block;padding:10px 0}}@media(max-width:650px){{main{{padding:28px 20px 70px}}h1{{font-size:32px}}h2{{font-size:26px}}.stats{{grid-template-columns:1fr}}.compare{{grid-template-columns:1fr}}table{{min-width:800px}}}}</style></head><body><main><a href="/zh-hant/">← 查看更新後Demo</a> · <a href="/en/">English</a> · <a href="/zh-hans/">简体中文</a> · <a href="/report.html">原內容修改報告</a><h1>更清楚地看見服務，<br>更直接地開始詢價。</h1><p>2026-10-30 · taste skill、redesign skill、web-design-reviewer 檢查與優化。這是本次版本的實測與設計判斷；不是第三方評等或業主已驗收。</p><div class="stats"><div><strong>{fail(before)} → {fail(after)}</strong>繁體首頁taste FAIL項目</div><div><strong>{axe}</strong>三語首頁axe自動違規</div><div><strong>{len(resp)}</strong>三語 × 4寬度首頁檢查</div></div><div class="note">保留原本純HTML／CSS／JavaScript、三語路徑、SEO／AEO結構、205篇原文與詢價資料流程。本次調整呈現與操作，未更動原文正文，未添加承運保證、價格或見證。兩個原網站未更動，仍是本機Demo。</div>
 <h2>桌機前後對照</h2><div class="compare"><figure><img src="/reports/ui/before-desktop.jpg" alt="修改前桌機首頁"><figcaption>修改前：較小照片、裝飾小標、主動作先探索服務。</figcaption></figure><figure><img src="/reports/ui/after-desktop.jpg" alt="修改後桌機首頁"><figcaption>修改後：搬遷單式版面、裝車實景、清楚的詢價動作。</figcaption></figure></div><h2>手機前後對照</h2><div class="compare mobile"><figure><img src="/reports/ui/before-mobile.jpg" alt="修改前手機首頁" loading="lazy"><figcaption>修改前：小字與照片分散閱讀焦點。</figcaption></figure><figure><img src="/reports/ui/after-mobile.jpg" alt="修改後手機首頁" loading="lazy"><figcaption>修改後：重新裁切的實景、16px內文、第一屏可操作的詢價按鈕。</figcaption></figure></div>
 <h2>逐項修正</h2>{table}
 <h2>設計方向與最終自評</h2><p>taste抽出的方向為 <strong>The page is the object</strong>，seed <code>974465387</code>，無重新抽選。把邀請卡的紙張幾何轉用到搬遷需求單：同一品牌原本分散的運車與搬家資訊，現在可填進同一張需求單。實際操作核心仍是ZIP路線選擇與本機摘要下載。</p><p>保留深藍、淺綠與紙色。英文大標使用Erode，中文與內文使用Noto Sans TC；Erode已隨網站自託管。先改善閱讀與版面，沒有遷移框架、加登入、加付款或改成沉重的動畫頁。</p><p>最後設計自評：設計7.5／易用性8／創意7／內容7.5，按40%／30%／20%／10%權重為 <strong>7.6／10</strong>。這是依skill量尺的主觀自評，未冒充Awwwards或使用者測試成績。尚有提升空間：原站照片畫質、完整三語文章翻譯及真人使用者回饋。</p>
 <h2>測試證據與限制</h2><ul><li>taste檢查繁體及英文首頁1440／768／390px：最終FAIL為{fail(after)}／{fail(english)}。保留「沒有影片」提醒：本次以真實照片及輕微到位動態示範服務，避免自動播放干擾表單與增加手機載入；這是有意保留的選擇。</li><li>taste原始碼lint無FAIL；表單邊框是可操作欄位的邊界，padStart是日期補零，兩項WARN並非裝飾卡片或序號。</li><li>代表頁瀏覽器檢查{len(qa['pages'])}組：三語、桌機／手機、首頁／指南列表／指南／原文列表；橫向溢出{sum(x['overflow'] for x in qa['pages'])}，頁面JavaScript錯誤{len(qa['errors'])}。</li><li>三語首頁375／768／1280／1920px共12組，主標均2行；主要詢價按鈕第一屏可見，沒有橫向溢出。</li><li>三語首頁axe檢查0項違規；這不是完整WCAG認證或全部歷史文章的人工無障礙驗收。</li><li>詢價路線與服務可跨語言保留、相同ZIP會提示錯誤、路線帶入與摘要下載正常，手機導覽可開合。</li><li>作業系統設定停用了當前內嵌瀏覽器的自動控制，因此未直接替使用者按重新整理；畫面檢查使用獨立Chrome測試實例。未冒稱已操作使用者分頁。</li></ul>
-<h2>原文保留驗證</h2><p>205篇封存正文與原站HTML重新比對：204篇正文雜湊完全一致，另1篇僅因封存段落排版移除15個空白行而不同；移除空白行後205篇文字內容均相同，未發現改字或漏字。這是文字保留檢查，不代表舊文事實正確。</p><a href="/reports/ui/original-preservation.json">正文比對JSON與空白行差異網址</a><h2>素材、範圍與尚待確認</h2><ul><li>新增裝車照片：<a href="https://www.carshipping168.com/wp-content/uploads/2021/09/IMG_20210126_101354615_HDR-1024x576.jpg">原站照片來源</a>。攝影者未在原文提供，未宣稱新授權；用在主視覺與關於區，頁尾說明來源。</li><li>其他貨車、搬家與打包照沿用原站素材；道路照沿用上一版Unsplash示意素材，未冒充168的服務現場。未新增陌生庫圖、AI人物或假客戶。</li><li><a href="https://www.fontshare.com/fonts/erode">Erode字型來源：Fontshare</a>。正式商業上線仍需確認來源照片與字型的適用授權。</li><li>尚未做真實用戶訪談、正式網域效能與排名實驗、全品牌識別設計或205篇全文英譯。這些不因本輪UI檢查通過就算完成。</li></ul><h2>下載檢查資料</h2><div class="files"><a href="/reports/ui/taste-before.json">修改前taste檢查JSON</a><a href="/reports/ui/taste-after.json">修改後繁體taste檢查JSON</a><a href="/reports/ui/taste-english.json">修改後英文taste檢查JSON</a><a href="/reports/ui/browser-qa.json">本版瀏覽器QA JSON</a><a href="/reports/ui/responsive-check.json">12組寬度檢查JSON</a><a href="/reports/ui/design-notes.md">設計方向、三輪評審與素材紀錄</a></div><p>修改來源：<code>polish.py</code>、<code>build.py</code>、<code>dist/style.css</code>、<code>dist/app.js</code>。變更文案與重建時會保留這次設計，不只覆蓋已產生的HTML。</p></main></body></html>'''
-(D/'ui-review.html').write_text(body,encoding='utf8');print('UI report generated; final taste FAIL=0 in both tested languages')
+<h2>原文保留驗證</h2><p>205篇封存正文與原站HTML重新比對：204篇正文雜湊完全一致，另1篇僅因封存段落排版移除15個空白行而不同；移除空白行後205篇文字內容均相同，未發現改字或漏字。這是文字保留檢查，不代表舊文事實正確。</p><a href="/reports/ui/original-preservation.json">正文比對JSON與空白行差異網址</a><h2>素材、範圍與尚待確認</h2><ul><li>新增裝車照片：<a href="https://www.carshipping168.com/wp-content/uploads/2021/09/IMG_20210126_101354615_HDR-1024x576.jpg">原站照片來源</a>。攝影者未在原文提供，未宣稱新授權；用在主視覺與關於區，頁尾說明來源。</li><li>其他貨車、搬家與打包照沿用原站素材；道路照沿用上一版Unsplash示意素材，未冒充168的服務現場。未新增陌生庫圖、AI人物或假客戶。</li><li><a href="https://www.fontshare.com/fonts/erode">Erode字型來源：Fontshare</a>。正式商業上線仍需確認來源照片與字型的適用授權。</li><li>尚未做真實用戶訪談、正式網域效能與排名實驗、全品牌識別設計或205篇全文英譯。這些不因本輪UI檢查通過就算完成。</li></ul><h2>下載檢查資料</h2><div class="files"><a href="/reports/ui/taste-before.json">修改前taste檢查JSON</a><a href="/reports/ui/taste-after.json">修改後繁體taste檢查JSON</a><a href="/reports/ui/taste-english.json">修改後英文taste檢查JSON</a><a href="/reports/ui/browser-qa.json">本版瀏覽器QA JSON</a><a href="/reports/ui/responsive-check.json">12組寬度檢查JSON</a><a href="/reports/ui/design-notes.md">設計方向、三輪評審與素材紀錄</a></div><p>修改來源：<code>polish.py</code>、<code>build.py</code>、<code>dist/style.css</code>、<code>dist/app.js</code>。變更文案與重建時會保留這次設計，不只覆蓋已產生的HTML。</p></main></body></html>"""
+(D / "ui-review.html").write_text(body, encoding="utf8")
+print("UI report generated; final taste FAIL=0 in both tested languages")

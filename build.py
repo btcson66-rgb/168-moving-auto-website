@@ -3,11 +3,26 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 from bs4 import BeautifulSoup
 from opencc import OpenCC
-from content import TW, EN, GUIDES_TW, GUIDES_EN
+from content import (
+    TW, EN, GUIDES_TW, GUIDES_EN,
+    CONTENT_DATE, PHONE_E164, PHONE_DISPLAY, PHONE_SCHEMA, EMAIL,
+)
+from optimize_images import optimize as optimize_images
 
 ROOT = Path(__file__).parent
 DIST = ROOT / "dist"
 ORIGIN = "https://one68-moving-demo-20261030.aa920602.chatgpt.site"
+GFONTS_URL = "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap"
+# Label keys app.js reads as `c.<key>` (c = data.labels), plus `quote`, which
+# polish.py reads back from the embedded JSON. Keep in sync with dist/app.js:
+# archiveFilters, close, copied, date, dateError, details, emptyDetails, from,
+# menu, noResults, originalRead, quote, results, summary, summaryNote, to,
+# types, zipError
+SITE_DATA_KEYS = (
+    "archiveFilters", "close", "copied", "date", "dateError", "details",
+    "emptyDetails", "from", "menu", "noResults", "originalRead", "quote",
+    "results", "summary", "summaryNote", "to", "types", "zipError",
+)
 PUBLIC_INDEXING = False  # Enable only for an approved, authoritative production domain.
 cc = OpenCC("t2s")
 h = html.escape
@@ -79,7 +94,7 @@ def icon(name):
     return f'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{paths.get(name,paths["arrow"])}</svg>'
 
 
-def head(lang, title, desc, path, schemas=None, archive=False):
+def head(lang, title, desc, path, schemas=None, archive=False, html_lang=None):
     c = LANGS[lang]
     robots = "index,follow" if PUBLIC_INDEXING and not archive else "noindex,follow"
     alternates = (
@@ -96,18 +111,31 @@ def head(lang, title, desc, path, schemas=None, archive=False):
         if path.startswith("original/")
         else f"{ORIGIN}/{lang}/{path}"
     )
-    return f'''<!doctype html><html lang="{c['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{h(title)}</title><meta name="description" content="{h(desc)}"><meta name="robots" content="{robots}"><link rel="canonical" href="{canonical}">{alternates}<meta property="og:type" content="website"><meta property="og:title" content="{h(title)}"><meta property="og:description" content="{h(desc)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{ORIGIN}/assets/social.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#142e37"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css">{''.join('<script type="application/ld+json">'+json.dumps(s,ensure_ascii=False).replace('</','<\\/')+'</script>' for s in (schemas or []))}</head><body>'''
+    # Fonts moved here from CSS @import so they load in parallel with style.css.
+    fonts = (
+        '<link rel="preconnect" href="https://fonts.googleapis.com">'
+        '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+        f'<link rel="stylesheet" href="{h(GFONTS_URL)}">'
+        '<link rel="stylesheet" href="/fonts.css">'
+        # Erode 500 is the heading weight, used for English pages only.
+        + (
+            '<link rel="preload" as="font" type="font/woff2" href="/assets/erode-500.woff2" crossorigin>'
+            if lang == "en"
+            else ""
+        )
+    )
+    return f'''<!doctype html><html lang="{html_lang or c['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{h(title)}</title><meta name="description" content="{h(desc)}"><meta name="robots" content="{robots}"><link rel="canonical" href="{canonical}">{alternates}<meta property="og:type" content="website"><meta property="og:title" content="{h(title)}"><meta property="og:description" content="{h(desc)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{ORIGIN}/assets/social.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#142e37"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">{fonts}<link rel="stylesheet" href="/style.css">{''.join('<script type="application/ld+json">'+json.dumps(s,ensure_ascii=False).replace('</','<\\/')+'</script>' for s in (schemas or []))}</head><body>'''
 
 
 def header(lang, path=""):
     c = LANGS[lang]
     ids = ["services", "routes", "process", "guides", "about"]
-    return f"""<a class="skip" href="#main">Skip to content</a><div class="topbar"><div class="wrap"><span>{h(c['demo'])}</span><a href="tel:+16268734458">{icon('phone')} +1 (626) 873-4458</a></div></div><header class="header"><div class="wrap nav"><a class="brand" href="/{lang}/" aria-label="168 Moving and Auto"><b>168<span>↗</span></b><div>MOVING & AUTO<small>EVERY MILE, MORE PERSONAL.</small></div></a><nav id="navlinks" aria-label="Main">{''.join(f'<a href="/{lang}/#{i}">{h(t)}</a>' for i,t in zip(ids,c['nav']))}</nav><div class="nav-actions"><div class="language">{icon('globe')}<select aria-label="Language" id="language">{''.join(f'<option value="{l}" {"selected" if lang==l else ""}>{d["name"]}</option>' for l,d in LANGS.items())}</select></div><button class="button dark nav-quote" data-quote>{h(c['quote'])}{icon('arrow')}</button><button class="menu-button" aria-label="{h(c['menu'])}" aria-controls="navlinks" aria-expanded="false">{icon('menu')}</button></div></div></header>"""
+    return f"""<a class="skip" href="#main">Skip to content</a><div class="topbar"><div class="wrap"><span>{h(c['demo'])}</span><a href="tel:{PHONE_E164}">{icon('phone')} {PHONE_DISPLAY}</a></div></div><header class="header"><div class="wrap nav"><a class="brand" href="/{lang}/" aria-label="168 Moving and Auto"><b>168<span>↗</span></b><div>MOVING & AUTO<small>EVERY MILE, MORE PERSONAL.</small></div></a><nav id="navlinks" aria-label="Main">{''.join(f'<a href="/{lang}/#{i}">{h(t)}</a>' for i,t in zip(ids,c['nav']))}</nav><div class="nav-actions"><div class="language">{icon('globe')}<select aria-label="Language" id="language">{''.join(f'<option value="{l}" {"selected" if lang==l else ""}>{d["name"]}</option>' for l,d in LANGS.items())}</select></div><button class="button dark nav-quote" data-quote>{h(c['quote'])}{icon('arrow')}</button><button class="menu-button" aria-label="{h(c['menu'])}" aria-controls="navlinks" aria-expanded="false">{icon('menu')}</button></div></div></header>"""
 
 
 def footer(lang):
     c = LANGS[lang]
-    return f"""<section class="contact" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">LET’S MAKE YOUR NEXT MOVE.</p><h2>{c['contactTitle']}</h2><p>{h(c['contactBody'])}</p><button class="button lime" data-quote>{h(c['quote'])}{icon('arrow')}</button></div><div class="contact-options"><a href="tel:+16268734458">{icon('phone')}<span>{h(c['phone'])}<strong>+1 (626) 873-4458</strong></span>{icon('arrow')}</a><a href="mailto:help@carshipping168.com">{icon('mail')}<span>{h(c['email'])}<strong>help@carshipping168.com</strong></span>{icon('arrow')}</a><button data-wechat>{icon('chat')}<span>{h(c['wechat'])}<strong>carshipping168</strong></span>{icon('arrow')}</button><a href="https://line.me/ti/p/@fsp2682p" target="_blank" rel="noopener">{icon('chat')}<span>{h(c['line'])}<strong>@fsp2682p</strong></span>{icon('arrow')}</a></div></div></section><footer><div class="wrap footer-grid"><div><a class="brand" href="/{lang}/"><b>168<span>↗</span></b><div>MOVING & AUTO</div></a><p>{h(c['footerText'])}</p></div><div><h3>{h(c['footerLinks'][0])}</h3><a href="/{lang}/#services">{h(c['nav'][0])}</a><a href="/{lang}/guides/">{h(c['nav'][3])}</a><a href="/{lang}/library/">{h(c['archive'])}</a></div><div><h3>{h(c['footerLinks'][2])}</h3><a href="https://haobun.com/" target="_blank" rel="noopener">haobun.com ↗</a><a href="https://www.carshipping168.com/" target="_blank" rel="noopener">carshipping168.com ↗</a><a href="/report.html">{h(c['report'])} ↗</a></div></div><div class="wrap footer-bottom"><span>© 2026 168 Moving & Auto · Concept demo</span><p>{h(c['footerNote'])}</p></div></footer><button class="floating-contact" data-quote aria-label="{h(c['quote'])}">{icon('chat')}</button>"""
+    return f"""<section class="contact" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">LET’S MAKE YOUR NEXT MOVE.</p><h2>{c['contactTitle']}</h2><p>{h(c['contactBody'])}</p><button class="button lime" data-quote>{h(c['quote'])}{icon('arrow')}</button></div><div class="contact-options"><a href="tel:{PHONE_E164}">{icon('phone')}<span>{h(c['phone'])}<strong>{PHONE_DISPLAY}</strong></span>{icon('arrow')}</a><a href="mailto:{EMAIL}">{icon('mail')}<span>{h(c['email'])}<strong>{EMAIL}</strong></span>{icon('arrow')}</a><button data-wechat>{icon('chat')}<span>{h(c['wechat'])}<strong>carshipping168</strong></span>{icon('arrow')}</button><a href="https://line.me/ti/p/@fsp2682p" target="_blank" rel="noopener">{icon('chat')}<span>{h(c['line'])}<strong>@fsp2682p</strong></span>{icon('arrow')}</a></div></div></section><footer><div class="wrap footer-grid"><div><a class="brand" href="/{lang}/"><b>168<span>↗</span></b><div>MOVING & AUTO</div></a><p>{h(c['footerText'])}</p></div><div><h3>{h(c['footerLinks'][0])}</h3><a href="/{lang}/#services">{h(c['nav'][0])}</a><a href="/{lang}/guides/">{h(c['nav'][3])}</a><a href="/{lang}/library/">{h(c['archive'])}</a></div><div><h3>{h(c['footerLinks'][2])}</h3><a href="https://haobun.com/" target="_blank" rel="noopener">haobun.com ↗</a><a href="https://www.carshipping168.com/" target="_blank" rel="noopener">carshipping168.com ↗</a><a href="/report.html">{h(c['report'])} ↗</a></div></div><div class="wrap footer-bottom"><span>© 2026 168 Moving & Auto · Concept demo</span><p>{h(c['footerNote'])}</p></div></footer><button class="floating-contact" data-quote aria-label="{h(c['quote'])}">{icon('chat')}</button>"""
 
 
 def wizard(lang):
@@ -118,7 +146,7 @@ def wizard(lang):
 def end(lang, path=""):
     return (
         wizard(lang)
-        + f'<script id="site-data" type="application/json">{json.dumps({"lang":lang,"path":path,"labels":LANGS[lang]},ensure_ascii=False).replace("</","<\\/")}</script><script src="/app.js" defer></script></body></html>'
+        + f'<script id="site-data" type="application/json">{json.dumps({"lang":lang,"path":path,"labels":{k:LANGS[lang][k] for k in SITE_DATA_KEYS}},ensure_ascii=False).replace("</","<\\/")}</script><script src="/app.js" defer></script></body></html>'
     )
 
 
@@ -144,8 +172,8 @@ def home(lang):
             "@type": "Organization",
             "name": "168 Moving & Auto",
             "url": ORIGIN + "/" + lang + "/",
-            "telephone": "+1-626-873-4458",
-            "email": "help@carshipping168.com",
+            "telephone": PHONE_SCHEMA,
+            "email": EMAIL,
             "sameAs": ["https://haobun.com/", "https://www.carshipping168.com/"],
         },
         {
@@ -196,7 +224,7 @@ def guide_page(lang, g):
         "headline": title,
         "description": answer,
         "inLanguage": c["lang"],
-        "dateModified": "2026-10-30",
+        "dateModified": CONTENT_DATE,
         "author": {"@type": "Organization", "name": "168 website demo editorial team"},
         "publisher": {"@type": "Organization", "name": "168 Moving & Auto"},
         "mainEntityOfPage": ORIGIN + "/" + lang + "/" + path,
@@ -232,6 +260,19 @@ def guide_page(lang, g):
         + footer(lang)
         + end(lang, path)
     )
+
+
+s2t = OpenCC("s2t")
+
+
+def archive_lang(title, text):
+    """zh-Hans when title + first 500 chars of body change noticeably under s2t, else zh-Hant."""
+    sample = (title + "\n" + text)[:520]
+    han = [ch for ch in sample if "\u4e00" <= ch <= "\u9fff"]
+    if not han:
+        return "zh-Hant"
+    changed = sum(a != b for a, b in zip(sample, s2t.convert(sample)))
+    return "zh-Hans" if changed / len(han) > 0.03 else "zh-Hant"
 
 
 def build_archive():
@@ -341,17 +382,19 @@ def build_archive():
             "<p>" + h(x) + "</p>" for x in r["text"].splitlines() if x.strip()
         )
         c = TW
+        alang = archive_lang(r["title"], r["text"])
         s = head(
             "zh-hant",
             r["title"] + " | 168 原文封存",
             "原站文章正文封存，歷史內容未經事實核實。",
             "original/" + r["id"] + "/",
             archive=True,
+            html_lang=alang,
         ) + header("zh-hant")
-        s += f'<main id="main" class="original-article wrap"><a href="/zh-hant/library/">← 繁體中文</a> · <a href="/zh-hans/library/">简体中文</a> · <a href="/en/library/">English</a><p class="eyebrow">ORIGINAL-LANGUAGE ARCHIVE · 原文封存</p><h1>{h(r["title"])}</h1><aside class="editor-note"><p>本頁正文保留原站語言與敘述，未全文翻譯、未背書其時效或正確性。歷史費用不是現行報價。<br>Original-language text, not a current offer or an independently verified account.</p></aside><p>{h(r["date"])}</p><p><a href="{h(r["source"])}" target="_blank" rel="noopener">查看原站 / View source ↗</a></p><article class="original-body" lang="zh">{body}</article></main>'
+        s += f'<main id="main" class="original-article wrap"><a href="/zh-hant/library/">← 繁體中文</a> · <a href="/zh-hans/library/">简体中文</a> · <a href="/en/library/">English</a><p class="eyebrow">ORIGINAL-LANGUAGE ARCHIVE · 原文封存</p><h1>{h(r["title"])}</h1><aside class="editor-note"><p>本頁正文保留原站語言與敘述，未全文翻譯、未背書其時效或正確性。歷史費用不是現行報價。<br>Original-language text, not a current offer or an independently verified account.</p></aside><p>{h(r["date"])}</p><p><a href="{h(r["source"])}" target="_blank" rel="noopener">查看原站 / View source ↗</a></p><article class="original-body" lang="{alang}">{body}</article></main>'
         write(
             "original/" + r["id"] + "/index.html",
-            s + footer("zh-hant") + end("zh-hant"),
+            s + footer("zh-hant") + end("zh-hant", "library/"),
         )
     return records, changes
 
@@ -375,6 +418,7 @@ def library_page(lang, count):
 
 def main():
     DIST.mkdir(exist_ok=True)
+    optimize_images()
     records, changes = build_archive()
     urls = []
     for lang, c in LANGS.items():
@@ -393,7 +437,7 @@ def main():
     for u in urls:
         path = u.split("/", 1)[1]
         sitemap += (
-            f"<url><loc>{ORIGIN}/{u}</loc><lastmod>2026-10-30</lastmod>"
+            f"<url><loc>{ORIGIN}/{u}</loc><lastmod>{CONTENT_DATE}</lastmod>"
             + "".join(
                 f'<xhtml:link rel="alternate" hreflang="{c["lang"]}" href="{ORIGIN}/{l}/{path}"/>'
                 for l, c in LANGS.items()

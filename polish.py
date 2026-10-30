@@ -1,7 +1,62 @@
 """Presentation-only refinements. Source articles and service facts remain unchanged."""
 
 from bs4 import BeautifulSoup
+from functools import lru_cache
+from pathlib import Path
 import json
+from PIL import Image
+from content import CONTENT_DATE
+from optimize_images import variants
+
+ASSETS = Path(__file__).parent / "dist" / "assets"
+# srcset `sizes` per image container (layout widths from style.css breakpoints).
+IMG_SIZES = [
+    (".service-img", "(max-width:860px) 100vw, 34vw"),
+    (".guide-image", "(max-width:860px) 100vw, 34vw"),
+    (".hero-visual", "(max-width:860px) 100vw, 50vw"),
+    (".about-photo", "(max-width:860px) 100vw, 50vw"),
+]
+
+
+@lru_cache(None)
+def image_size(name):
+    with Image.open(ASSETS / name) as im:
+        return im.size
+
+
+def picturize(s):
+    """Add real width/height to every local <img>; wrap JPEGs that have WebP variants in <picture>."""
+    for img in s.select("img"):
+        src = img.get("src", "")
+        if not src.startswith("/assets/") or not (ASSETS / src[8:]).exists():
+            continue
+        name = src[8:]
+        w, h = image_size(name)
+        img["width"], img["height"] = str(w), str(h)
+        if name == "wechat.png":
+            img["loading"] = "lazy"
+        if not name.endswith(".jpg") or img.parent.name == "picture":
+            continue
+        vs = variants(name[:-4])
+        if not vs:
+            continue
+        sizes = "100vw"
+        for sel, val in IMG_SIZES:
+            if img.find_parent(class_=sel[1:]):
+                sizes = val
+                break
+        pic = s.new_tag("picture")
+        pic.append(
+            s.new_tag(
+                "source",
+                attrs={
+                    "type": "image/webp",
+                    "srcset": ", ".join(f"/assets/{f} {vw}w" for vw, f in vs),
+                    "sizes": sizes,
+                },
+            )
+        )
+        img.wrap(pic)
 
 COPY = {
     "zh-hant": {
@@ -91,7 +146,7 @@ def polish_document(text, path):
         if n.find_parent(class_="article-top") and "2026" in n.get_text():
             n["class"] = ["article-meta"]
             n.string = (
-                "Updated October 30, 2026" if lang == "en" else "整理日期：2026-10-30"
+                "Updated October 30, 2026" if lang == "en" else f"整理日期：{CONTENT_DATE}"
             )
         else:
             n.decompose()
@@ -135,8 +190,6 @@ def polish_document(text, path):
         visual.name = "figure"
         image = visual.select_one("img")
         image["src"] = "/assets/auto-detail.jpg"
-        image["width"] = "1024"
-        image["height"] = "576"
         image["fetchpriority"] = "high"
         cap = visual.select_one(".visual-caption")
         if cap:
@@ -201,6 +254,7 @@ def polish_document(text, path):
     for img in s.select("img"):
         if not img.has_attr("decoding"):
             img["decoding"] = "async"
+    picturize(s)
     footer = s.select_one("footer .footer-bottom")
     if footer:
         credit = s.new_tag("p", attrs={"class": "photo-credit"})

@@ -1,3 +1,10 @@
+# Single sources of truth reused by build.py and polish.py.
+CONTENT_DATE = "2026-10-30"
+PHONE_E164 = "+16268734458"
+PHONE_DISPLAY = "+1 (626) 873-4458"
+PHONE_SCHEMA = "+1-626-873-4458"
+EMAIL = "help@carshipping168.com"
+
 TW = {
     "lang": "zh-Hant",
     "name": "繁體中文",

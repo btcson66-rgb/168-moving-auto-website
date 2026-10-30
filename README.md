@@ -8,12 +8,15 @@ Buildless static site combining public information from haobun.com and carshippi
 - `report.py`: produces source/change/risk CSVs and the human-readable report.
 - `research/`: original public HTML snapshots, crawl inventory, QA and hashes, included to reproduce the content build. Temporary browser files and logs are excluded.
 
-Local preview: `python -m http.server 4173 --bind 127.0.0.1 --directory dist`
+Local preview: `npm run preview`, then open `http://127.0.0.1:4173/zh-hant/`.
 
-Content rebuild: `python build.py`, then `node qa.cjs`, then `python report.py`, then `python check.py`.
+Rebuild and verify: `npm run verify` runs `build`, `check` and `qa` in order. `qa.cjs` starts its own static server for `dist/` on `127.0.0.1:4173` when nothing is already listening there. It uses Playwright's bundled Chromium; set `CHROME_PATH` to use another Chrome executable, for example `CHROME_PATH='C:/Program Files/Google/Chrome/Application/chrome.exe'`.
+
+After a content change, run `npm run verify`, then `npm run report` to refresh the reports.
+
 The UI revision is applied by `polish.py` during the build; it preserves original article body text. Re-run the taste inspectors before `python ui_review.py` to refresh the visual review. The revision's screenshots, limitations and results are available at `/ui-review.html`.
 Python requirements: requests, beautifulsoup4, opencc-python-reimplemented, pillow.
-Browser QA requirements: playwright, @axe-core/playwright; uses the installed Chrome.
+Browser QA requirements: playwright, @axe-core/playwright; uses Playwright Chromium, or set `CHROME_PATH` to another Chrome binary.
 
 The demo has no inquiry submission, booking or payment backend. Local inquiry state uses sessionStorage. Original-language archive articles are not fully translated into English. Authoritative service terms and article facts need owner review.
 
@@ -33,4 +36,4 @@ npm run preview
 
 Open `http://127.0.0.1:4173/zh-hant/`. Other language pages: `/en/`, `/zh-hans/`. Reports: `/report.html` and `/ui-review.html`. On Windows, `start-demo.cmd` is also available.
 
-The prebuilt `dist/` can be served without Node dependencies. The original-language archive is not fully translated. Browser QA targets installed Windows Chrome; adjust `executablePath` for another OS. Taste scripts belong to the installed local skill and are not vendored; their result JSON and screenshots are retained in `.taste-skill/` and `dist/reports/ui/`.
+The prebuilt `dist/` can be served without Node dependencies. The original-language archive is not fully translated. Browser QA runs on Windows, macOS and Linux (set `CHROME_PATH` to use a specific Chrome). Taste scripts belong to the installed local skill and are not vendored; their result JSON and screenshots are retained in `.taste-skill/` and `dist/reports/ui/`.

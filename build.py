@@ -115,7 +115,10 @@ def head(lang, title, desc, path, schemas=None, archive=False, html_lang=None):
     fonts = (
         '<link rel="preconnect" href="https://fonts.googleapis.com">'
         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-        f'<link rel="stylesheet" href="{h(GFONTS_URL)}">'
+        # Non-blocking: font-display:swap already renders system text first, so
+        # don't hold first paint for the ~140KB Google Fonts stylesheet.
+        f'<link rel="stylesheet" href="{h(GFONTS_URL)}" media="print" onload="this.media=\'all\'">'
+        f'<noscript><link rel="stylesheet" href="{h(GFONTS_URL)}"></noscript>'
         '<link rel="stylesheet" href="/fonts.css">'
         # Erode 500 is the heading weight, used for English pages only.
         + (

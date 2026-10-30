@@ -1,0 +1,17 @@
+{
+  "source_urls": 870,
+  "original_articles": 205,
+  "trilingual_authored_pages": 30,
+  "languages": [
+    "zh-hant",
+    "zh-hans",
+    "en"
+  ],
+  "actions": {
+    "service-reference": 43,
+    "original-body-preserved": 205,
+    "inventory-only": 508,
+    "duplicate-body": 114
+  },
+  "public_indexing": false
+}

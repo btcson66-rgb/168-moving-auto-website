@@ -1,0 +1,24 @@
+# 168 Moving & Auto — concept demo
+> A private demonstration consolidating public information from haobun.com and carshipping168.com. Not an official current offer. Do not treat historical case prices or transit times as guarantees.
+
+## Languages
+- [English](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/)
+- [简体中文](https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/)
+- [繁體中文](https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/)
+
+## Answer-first guides
+- [Shipping your car, from planning to handover](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/auto/): Start with both ZIP codes, your vehicle details, pickup availability and running condition. The team can then confirm carrier options and pricing.
+- [An interstate move starts with a good inventory](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/moving/): List your boxes, furniture and large items, then share access conditions and dates for both addresses. Confirm packing, loading, transport and assembly separately.
+- [Storage between one home and the next](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/storage/): Identify what you need to store, where and for how long. Share your next delivery date and ask the team to confirm available arrangements.
+- [Before you move: ship your car or sell it?](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/buy-sell/): Compare shipping costs, your car’s condition, future needs and replacement options. Then discuss buying, selling and handover assistance with the team.
+- [Open or enclosed: choosing how your car travels](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/open-enclosed/): The main difference is whether the vehicle travels in a covered trailer. Consider condition, dimensions, budget and protection needs, then confirm carrier requirements.
+- [Understanding a moving or auto transport quote](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/pricing/): A useful quote needs the route, dates and complete vehicle or inventory details. Historical article prices are not current offers.
+- [Luggage in your car: what to confirm first](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/luggage/): Before booking, explain the item types, total weight and placement. The team and carrier need to confirm acceptance and any additional charges.
+- [Graduating and moving for a new job: a checklist](https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/student/): Put lease dates, work start dates and delivery availability into one plan. Then coordinate your car, belongings and any temporary storage.
+
+## Sources and editorial limits
+- [Change report](https://one68-moving-demo-20261030.aa920602.chatgpt.site/report.html)
+- [Original moving site](https://haobun.com/)
+- [Original auto transport site](https://www.carshipping168.com/)
+
+Public articles are retained in an original-language, noindex archive. Full English article translation and owner fact review are not complete. No live quotes, booking, payment or inquiry transmission. llms.txt is a discovery aid, not an indexing or AI citation guarantee.

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+# Private concept demo. Enable indexing only on an approved production domain.
+Sitemap: https://one68-moving-demo-20261030.aa920602.chatgpt.site/sitemap.xml

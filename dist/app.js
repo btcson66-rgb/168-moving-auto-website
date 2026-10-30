@@ -1,0 +1,43 @@
+(()=>{'use strict';
+const data=JSON.parse(document.getElementById('site-data').textContent),c=data.labels;
+const $=(s,p=document)=>p.querySelector(s),$$=(s,p=document)=>[...p.querySelectorAll(s)];
+const dialog=$('#quote-dialog'),form=$('#inquiry-form'),quick=$('#quick-form');
+let state={service:'0',from:'',to:'',date:'',details:''},downloadText='';
+try{state={...state,...JSON.parse(sessionStorage.getItem('168-inquiry')||'{}')}}catch{}
+const save=()=>{try{sessionStorage.setItem('168-inquiry',JSON.stringify(state))}catch{}};
+const capture=()=>{for(const k of Object.keys(state))if(form.elements[k])state[k]=form.elements[k].value;save()};
+const restore=()=>{for(const k of Object.keys(state))if(form.elements[k])form.elements[k].value=state[k];if(quick){quick.elements.from.value=state.from;quick.elements.to.value=state.to}$$('[data-service]').forEach(b=>{b.classList.toggle('active',b.dataset.service===state.service);b.setAttribute('aria-pressed',String(b.dataset.service===state.service))})};
+restore();const now=new Date();const today=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;form.elements.date.min=today;
+function openQuote(){restore();$('#wizard-form').hidden=false;$('#wizard-summary').hidden=true;$('#form-error').textContent='';if(!dialog.open)dialog.showModal()}
+$$('[data-quote]').forEach(b=>b.addEventListener('click',()=>{$('#navlinks').classList.remove('open');$('.menu-button').setAttribute('aria-expanded','false');$('.menu-button').setAttribute('aria-label',c.menu);openQuote()}));
+$$('[data-close]').forEach(b=>b.addEventListener('click',()=>b.closest('dialog').close()));
+$$('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}}));
+const isZip=v=>/^\d{5}$/.test(v)&&v!=='00000';
+if(quick){quick.addEventListener('input',()=>{state.from=quick.elements.from.value;state.to=quick.elements.to.value;save()});quick.addEventListener('submit',e=>{e.preventDefault();state.from=quick.elements.from.value;state.to=quick.elements.to.value;save();openQuote();if(!isZip(state.from)||!isZip(state.to)||state.from===state.to)$('#form-error').textContent=c.zipError});$('#swap-zips').addEventListener('click',()=>{[state.from,state.to]=[quick.elements.to.value,quick.elements.from.value];save();restore()})}
+$$('[data-service]').forEach(b=>b.addEventListener('click',()=>{state.service=b.dataset.service;save();restore()}));
+$$('[data-route]').forEach(b=>b.addEventListener('click',()=>{[state.from,state.to]=b.dataset.route.split(',');save();openQuote()}));
+form.addEventListener('input',capture);form.addEventListener('change',capture);
+form.addEventListener('submit',e=>{e.preventDefault();capture();if(!isZip(state.from)||!isZip(state.to)||state.from===state.to){$('#form-error').textContent=c.zipError;return}if(state.date&&state.date<today){$('#form-error').textContent=c.dateError;return}
+ const rows=[[c.types[0]+' / '+c.types[1],c.types[Number(state.service)]],[c.from,state.from],[c.to,state.to],[c.date,state.date||c.emptyDetails],[c.details,state.details||c.emptyDetails]];
+ $('#summary-fields').replaceChildren(...rows.flatMap(([a,b])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=a;dd.textContent=b;return[dt,dd]}));downloadText=c.summary+'\n\n'+rows.map(([a,b])=>a+': '+b).join('\n')+'\n\n'+c.summaryNote+'\n\n+1 (626) 873-4458\nhelp@carshipping168.com';$('#wizard-form').hidden=true;$('#wizard-summary').hidden=false;dialog.scrollTop=0;$('#download-summary').focus()});
+$('#edit-summary').addEventListener('click',()=>{$('#wizard-form').hidden=false;$('#wizard-summary').hidden=true;form.elements.from.focus()});
+$('#download-summary').addEventListener('click',()=>{const blob=new Blob(['\ufeff'+downloadText],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='168-moving-inquiry.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
+$('#language').addEventListener('change',e=>{if(dialog.open)capture();save();const l=e.target.value;location.assign('/'+l+'/'+(data.path||'')+location.hash)});
+const menu=$('.menu-button');menu.addEventListener('click',()=>{const open=$('#navlinks').classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?c.close:c.menu)});$$('#navlinks a').forEach(a=>a.addEventListener('click',()=>{$('#navlinks').classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label',c.menu)}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#navlinks').classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label',c.menu)}});
+$$('[data-wechat]').forEach(b=>b.addEventListener('click',()=>$('#wechat-dialog').showModal()));
+$('#copy-wechat').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('carshipping168');const t=$('#toast');t.textContent=c.copied;t.style.display='block';setTimeout(()=>{t.style.display='none'},2200)}catch{$('#copy-wechat').textContent='carshipping168'}});
+if($('#library-search')){let articles=[],page=1;const search=$('#library-search'),category=$('#library-category'),size=12;const params=new URLSearchParams(location.search);search.value=params.get('q')||'';category.value=params.get('category')||'all';
+ const render=()=>{const q=search.value.trim().toLocaleLowerCase(),cat=category.value;const matches=articles.filter(a=>(cat==='all'||a.category===cat)&&(!q||(a.title+' '+decodeURI(a.source)).toLocaleLowerCase().includes(q)));$('#library-count').textContent=matches.length+' '+c.results;const total=Math.ceil(matches.length/size);page=Math.max(1,Math.min(page,total||1));const target=$('#library-results');target.replaceChildren();for(const a of matches.slice((page-1)*size,page*size)){const link=document.createElement('a');link.className='library-item';link.href=a.url;const k=document.createElement('span'),title=document.createElement('h2'),meta=document.createElement('p');k.textContent=(a.category==='moving'?c.archiveFilters[1]:c.archiveFilters[2])+' · ORIGINAL';title.textContent=a.title;meta.textContent=a.date+' · '+new URL(a.source).hostname+' · '+c.originalRead+' ↗';link.append(k,title,meta);target.append(link)}if(!matches.length){const p=document.createElement('p');p.textContent=c.noResults;target.append(p)}const pages=$('#library-pages');pages.replaceChildren();for(let n=1;n<=total;n++){const b=document.createElement('button');b.textContent=n;b.className=n===page?'active':'';b.setAttribute('aria-label','Page '+n);if(n===page)b.setAttribute('aria-current','page');b.addEventListener('click',()=>{page=n;render();$('#library-count').scrollIntoView({block:'center'})});pages.append(b)}const url=new URL(location);q?url.searchParams.set('q',search.value):url.searchParams.delete('q');cat!=='all'?url.searchParams.set('category',cat):url.searchParams.delete('category');history.replaceState(null,'',url)};
+ fetch('/library-data.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(a=>{articles=a;render()}).catch(()=>{$('#library-count').textContent=data.lang==='en'?'Unable to load the article library. Please reload.':'文章清單載入失敗，請重新整理。'});search.addEventListener('input',()=>{page=1;render()});category.addEventListener('change',()=>{page=1;render()})}
+// Progressive enhancement: content stays visible when motion or scripting is unavailable.
+if('IntersectionObserver' in window){
+ const motion=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('reveal-in');motion.unobserve(e.target)}}),{threshold:.08});
+ if(!matchMedia('(prefers-reduced-motion: reduce)').matches)$$('.section-top h2,.section-intro,.service-card .service-img,.service-card .service-content,.route-copy h2,.route-options,.route-map,.step,.guide-card,.about-photo,.about-section .check-list,.faq-layout>div,.contact-grid>div,.footer-grid>div').forEach(el=>motion.observe(el));
+ const links=$$('#navlinks a');
+ if($('.hero')){
+  const nav=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){links.forEach(a=>{const active=new URL(a.href).hash==='#'+e.target.id;active?a.setAttribute('aria-current','location'):a.removeAttribute('aria-current')})}}),{rootMargin:'-15% 0px -60% 0px',threshold:0});
+  $$('main section[id]').forEach(el=>nav.observe(el));
+ }else{links.forEach(a=>{if(data.path.startsWith('guides/')&&a.hash==='#guides')a.setAttribute('aria-current','page')})}
+}
+})();

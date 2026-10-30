@@ -1,0 +1,1947 @@
+{
+ "url": "http://127.0.0.1:4173/zh-hant/",
+ "at": "2026-10-30T09:08:17.374Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.78,
+    0.53,
+    0.73,
+    0.57,
+    0.77,
+    0.62,
+    0.72,
+    0.75
+   ],
+   "motion": {
+    "elements": 38,
+    "css": 33,
+    "transitions": 5,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6917,
+     "screens": 7.7,
+     "words": 189,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 50,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "auto-detail.jpg",
+      "transport.jpg",
+      "moving.jpg",
+      "packing.jpg",
+      "road.jpg",
+      "transport.jpg",
+      "moving.jpg",
+      "road.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "車與家， 一起出發。",
+     "words": 2,
+     "chars": 10,
+     "lines": 2,
+     "size": 80,
+     "vw": 5.6,
+     "font": "Noto Sans TC",
+     "weight": 600,
+     "tracking": -0.06,
+     "leading": 1.22,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.37,
+     "top": 234,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "車與家， 一起出發。",
+     "words": 2,
+     "lines": 2,
+     "size": 80,
+     "font": "Noto Sans TC"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Noto Sans TC",
+      "weight": 700,
+      "tracking": -0.09,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 58,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "車與家， 一起出發。",
+      "words": 2,
+      "chars": 10,
+      "lines": 2,
+      "size": 80,
+      "vw": 5.6,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.06,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 234,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "從路線開始",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 857,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你的搬遷， 一次安排。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 1188,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "從這座城市， 到你的下一站。",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 2112,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "搬遷流程， 每一步都清楚。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 2846,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "出發前，先了解。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 3446,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "用熟悉的語言， 安排新的生活。",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 4454,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你想知道的， 先說清楚。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 5089,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 6012,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 80,
+      "vw": 5.6,
+      "font": "Noto Sans TC",
+      "weight": 700,
+      "tracking": -0.09,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 6574,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      24,
+      32,
+      40,
+      48,
+      80
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 16,
+      "leading": 1.8,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.3
+     },
+     "measureChars": 68,
+     "max": {
+      "size": 80,
+      "vw": 5.6,
+      "font": "Noto Sans TC",
+      "text": "車與家，一起出發。"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "車輛與物品，一張需求單。",
+      "above": "從路線開始",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 818
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f4",
+     "bodyBgHsl": {
+      "h": 75,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#142e37",
+       "top": 126,
+       "hsl": {
+        "h": 195,
+        "s": 0.47,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#eaf0e9",
+       "top": 2026,
+       "hsl": {
+        "h": 111,
+        "s": 0.19,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#f7f8f4",
+       "top": 5882,
+       "hsl": {
+        "h": 75,
+        "s": 0.22,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#142e37",
+       "share": 0.81
+      },
+      {
+       "color": "#d9e5dc",
+       "share": 0.09
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.07
+      },
+      {
+       "color": "#506359",
+       "share": 0.03
+      },
+      {
+       "color": "#3d652a",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#142e37",
+      "hsl": {
+       "h": 195,
+       "s": 0.47,
+       "l": 0.15
+      },
+      "fg": "#142e37"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 7,
+     "radius": 0,
+     "height": 61,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "免費諮詢報價",
+      "免費諮詢報價",
+      "汽車託運",
+      "跨州搬家"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2998
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 5972
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.84,
+    0.63,
+    0.86,
+    0.76,
+    0.69,
+    0.62,
+    0.79,
+    0.78
+   ],
+   "motion": {
+    "elements": 33,
+    "css": 33,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7385,
+     "screens": 7.2,
+     "words": 183,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 50,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "auto-detail.jpg",
+      "transport.jpg",
+      "moving.jpg",
+      "packing.jpg",
+      "road.jpg",
+      "transport.jpg",
+      "moving.jpg",
+      "road.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "車與家， 一起出發。",
+     "words": 2,
+     "chars": 10,
+     "lines": 2,
+     "size": 52,
+     "vw": 6.8,
+     "font": "Noto Sans TC",
+     "weight": 600,
+     "tracking": -0.06,
+     "leading": 1.22,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.42,
+     "top": 208,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "車與家， 一起出發。",
+     "words": 2,
+     "lines": 2,
+     "size": 52,
+     "font": "Noto Sans TC"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Noto Sans TC",
+      "weight": 700,
+      "tracking": -0.09,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 57,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "車與家， 一起出發。",
+      "words": 2,
+      "chars": 10,
+      "lines": 2,
+      "size": 52,
+      "vw": 6.8,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.06,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 208,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "從路線開始",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 718,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你的搬遷， 一次安排。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 1197,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "從這座城市， 到你的下一站。",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2282,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "搬遷流程， 每一步都清楚。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 3176,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "出發前，先了解。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.65,
+      "top": 3778,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "用熟悉的語言， 安排新的生活。",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 4711,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你想知道的， 先說清楚。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 5340,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 6446,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Noto Sans TC",
+      "weight": 700,
+      "tracking": -0.09,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 7028,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      24,
+      28,
+      32,
+      40,
+      52,
+      64
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 16,
+      "leading": 1.8,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.3
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 64,
+      "vw": 8.3,
+      "font": "Noto Sans TC",
+      "text": "168"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "車輛與物品，一張需求單。",
+      "above": "從路線開始",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 682
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f4",
+     "bodyBgHsl": {
+      "h": 75,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#142e37",
+       "top": 116,
+       "hsl": {
+        "h": 195,
+        "s": 0.47,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#eaf0e9",
+       "top": 652,
+       "hsl": {
+        "h": 111,
+        "s": 0.19,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#f7f8f4",
+       "top": 6321,
+       "hsl": {
+        "h": 75,
+        "s": 0.22,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#142e37",
+       "share": 0.81
+      },
+      {
+       "color": "#d9e5dc",
+       "share": 0.09
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.07
+      },
+      {
+       "color": "#506359",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#142e37",
+      "hsl": {
+       "h": 195,
+       "s": 0.47,
+       "l": 0.15
+      },
+      "fg": "#142e37"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 6,
+     "radius": 0,
+     "height": 61,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "免費諮詢報價",
+      "汽車託運",
+      "跨州搬家",
+      "運車＋搬家"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3298
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 6689
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.22
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.71,
+    0.75,
+    0.62,
+    0.56,
+    0.8,
+    0.71,
+    0.86,
+    0.63,
+    0.64,
+    0.92,
+    0.8,
+    0.98
+   ],
+   "motion": {
+    "elements": 33,
+    "css": 33,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9768,
+     "screens": 11.6,
+     "words": 180,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 50,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "auto-detail.jpg",
+      "transport.jpg",
+      "moving.jpg",
+      "packing.jpg",
+      "road.jpg",
+      "auto-detail.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "車與家， 一起出發。",
+     "words": 2,
+     "chars": 10,
+     "lines": 2,
+     "size": 48,
+     "vw": 12.3,
+     "font": "Noto Sans TC",
+     "weight": 600,
+     "tracking": -0.05,
+     "leading": 1.18,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.77,
+     "top": 350,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "車與家， 一起出發。",
+     "words": 2,
+     "lines": 2,
+     "size": 48,
+     "font": "Noto Sans TC"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Noto Sans TC",
+      "weight": 700,
+      "tracking": -0.09,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 52,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "車與家， 一起出發。",
+      "words": 2,
+      "chars": 10,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.18,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 350,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "從路線開始",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 806,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你的搬遷， 一次安排。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1350,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "汽車託運",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1872,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "跨州搬家",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2281,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "彈性倉儲",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2690,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "車輛買賣協助",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3099,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "從這座城市， 到你的下一站。",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3358,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "搬遷流程， 每一步都清楚。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4307,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "先告訴我們需求",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 4519,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "一起確認方案",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 4686,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "準備交付出發",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 4853,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "到貨檢查簽收",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 5020,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "出發前，先了解。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5271,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "用熟悉的語言， 安排新的生活。",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6454,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你想知道的， 先說清楚。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6985,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.1,
+      "top": 7237,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 7509,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 7607,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 7697,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 7788,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 7879,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Sans TC",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 8095,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 80,
+      "vw": 20.5,
+      "font": "Noto Sans TC",
+      "weight": 700,
+      "tracking": -0.09,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 8934,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 25,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      48,
+      80
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 16,
+      "leading": 1.8,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.3
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 80,
+      "vw": 20.5,
+      "font": "Noto Sans TC",
+      "text": "168"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "車輛與物品，一張需求單。",
+      "above": "從路線開始",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 767
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f8f4",
+     "bodyBgHsl": {
+      "h": 75,
+      "s": 0.22,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#142e37",
+       "top": 106,
+       "hsl": {
+        "h": 195,
+        "s": 0.47,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#f7f8f4",
+       "top": 323,
+       "hsl": {
+        "h": 75,
+        "s": 0.22,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#eaf0e9",
+       "top": 741,
+       "hsl": {
+        "h": 111,
+        "s": 0.19,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#142e37",
+       "share": 0.82
+      },
+      {
+       "color": "#d9e5dc",
+       "share": 0.1
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      },
+      {
+       "color": "#506359",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#142e37",
+      "hsl": {
+       "h": 195,
+       "s": 0.47,
+       "l": 0.15
+      },
+      "fg": "#142e37"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 2,
+     "radius": 0,
+     "height": 61,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "免費諮詢報價"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4494
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 8356
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"車輛與物品，一張需求單。\" above \"從路線開始\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "1 row(s) of identical cards each topped with a small icon (4 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 390,
+   "message": "10 different font sizes (13, 14, 16, 20, 24, 28, 32, 36, 48, 80).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\desktop-page-01.jpg",
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\tablet-page-01.jpg",
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\mobile-page-01.jpg",
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\round2\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

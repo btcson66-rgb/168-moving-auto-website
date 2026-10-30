@@ -1,0 +1,86 @@
+[
+  {
+    "lang": "en",
+    "width": 375,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "en",
+    "width": 768,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "en",
+    "width": 1280,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "en",
+    "width": 1920,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "zh-hans",
+    "width": 375,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "zh-hans",
+    "width": 768,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "zh-hans",
+    "width": 1280,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "zh-hans",
+    "width": 1920,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "zh-hant",
+    "width": 375,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "zh-hant",
+    "width": 768,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "zh-hant",
+    "width": 1280,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  },
+  {
+    "lang": "zh-hant",
+    "width": 1920,
+    "overflow": false,
+    "buttonVisible": true,
+    "heroLines": 2
+  }
+]

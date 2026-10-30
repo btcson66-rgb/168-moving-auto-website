@@ -1,0 +1,2746 @@
+{
+  "url": "http://127.0.0.1:4173/zh-hant/",
+  "at": "2026-10-30T09:02:21.009Z",
+  "allow": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "load": "load",
+      "screens": 7,
+      "filled": [
+        0.74,
+        0.44,
+        0.6,
+        0.71,
+        0.61,
+        0.98,
+        0.98
+      ],
+      "motion": {
+        "elements": 0,
+        "css": 0,
+        "transitions": 0,
+        "scripted": 0,
+        "videos": 0,
+        "playingVideos": 0
+      },
+      "metrics": {
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        },
+        "page": {
+          "height": 5634,
+          "screens": 6.3,
+          "words": 294,
+          "img": 11,
+          "video": 0,
+          "canvas": 0,
+          "svg": 51,
+          "sections": 8,
+          "horizontalOverflow": 0,
+          "overflowCulprits": [],
+          "uiFragments": 0,
+          "uiAbuse": false,
+          "realPictures": 10,
+          "videoCount": 0,
+          "uiPictures": 0,
+          "pictureSamples": [
+            "road.jpg",
+            "transport.jpg",
+            "transport.jpg",
+            "moving.jpg",
+            "packing.jpg",
+            "road.jpg",
+            "transport.jpg",
+            "moving.jpg"
+          ],
+          "blendText": 0,
+          "sideScrollers": 0,
+          "brokenImages": [],
+          "emoji": []
+        },
+        "hero": {
+          "text": "下一站新生活， 我們陪你一路到家。",
+          "words": 2,
+          "chars": 17,
+          "lines": 2,
+          "size": 66.2,
+          "vw": 4.6,
+          "font": "DM Sans",
+          "weight": 700,
+          "tracking": -0.04,
+          "leading": 1.35,
+          "upper": false,
+          "italic": false,
+          "mono": false,
+          "align": "left",
+          "position": "left",
+          "widthRatio": 0.48,
+          "top": 231,
+          "tag": "h1",
+          "kind": "heading"
+        },
+        "h1": {
+          "text": "下一站新生活， 我們陪你一路到家。",
+          "words": 2,
+          "lines": 2,
+          "size": 66.2,
+          "font": "DM Sans"
+        },
+        "headings": [
+          {
+            "text": "168↗",
+            "words": 1,
+            "chars": 4,
+            "lines": 1,
+            "size": 45,
+            "vw": 3.1,
+            "font": "Arial",
+            "weight": 700,
+            "tracking": -0.09,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.06,
+            "top": 52,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "下一站新生活， 我們陪你一路到家。",
+            "words": 2,
+            "chars": 17,
+            "lines": 2,
+            "size": 66.2,
+            "vw": 4.6,
+            "font": "DM Sans",
+            "weight": 700,
+            "tracking": -0.04,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.48,
+            "top": 231,
+            "tag": "h1",
+            "kind": "heading"
+          },
+          {
+            "text": "不只運送， 是替你安排好每一步。",
+            "words": 2,
+            "chars": 16,
+            "lines": 2,
+            "size": 42,
+            "vw": 2.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.28,
+            "top": 1139,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "不論下一站有多遠， 先把路線安排好。",
+            "words": 2,
+            "chars": 18,
+            "lines": 2,
+            "size": 42,
+            "vw": 2.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.35,
+            "top": 1860,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "把複雜留給我們， 把期待留給新生活。",
+            "words": 2,
+            "chars": 18,
+            "lines": 2,
+            "size": 42,
+            "vw": 2.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.25,
+            "top": 2471,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "01",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 38,
+            "vw": 2.6,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.2,
+            "top": 2651,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "02",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 38,
+            "vw": 2.6,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.2,
+            "top": 2651,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "03",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 38,
+            "vw": 2.6,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.2,
+            "top": 2651,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "04",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 38,
+            "vw": 2.6,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.2,
+            "top": 2651,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "搬得從容，從了解開始。",
+            "words": 1,
+            "chars": 11,
+            "lines": 1,
+            "size": 42,
+            "vw": 2.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.31,
+            "top": 3026,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "換一座城市， 熟悉的溝通不必改變。",
+            "words": 2,
+            "chars": 17,
+            "lines": 2,
+            "size": 42,
+            "vw": 2.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.41,
+            "top": 3788,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "168 HANDLED WITH CARE.",
+            "words": 4,
+            "chars": 22,
+            "lines": 1,
+            "size": 55,
+            "vw": 3.8,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.06,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.1,
+            "top": 3974,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "出發前，你可能想知道。",
+            "words": 1,
+            "chars": 11,
+            "lines": 1,
+            "size": 31,
+            "vw": 2.2,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.6,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.3,
+            "top": 4326,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "下一段旅程， 從一聲你好開始。",
+            "words": 2,
+            "chars": 15,
+            "lines": 2,
+            "size": 42,
+            "vw": 2.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.45,
+            "top": 5061,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "168↗",
+            "words": 1,
+            "chars": 4,
+            "lines": 1,
+            "size": 42,
+            "vw": 2.9,
+            "font": "Arial",
+            "weight": 700,
+            "tracking": -0.09,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.05,
+            "top": 5439,
+            "tag": "b",
+            "kind": "heading"
+          }
+        ],
+        "headingSummary": {
+          "count": 15,
+          "maxLines": 2,
+          "over2Lines": 0,
+          "statements": 0,
+          "centered": 0,
+          "medianWords": 1,
+          "mixedFontHeadings": 0
+        },
+        "type": {
+          "families": [
+            {
+              "family": "DM Sans",
+              "share": 1,
+              "mono": false
+            },
+            {
+              "family": "Arial",
+              "share": 0,
+              "mono": false
+            }
+          ],
+          "familyCount": 2,
+          "sizes": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            22,
+            23,
+            31,
+            38,
+            42,
+            45,
+            55,
+            66
+          ],
+          "sizeCount": 19,
+          "notLoaded": [],
+          "body": {
+            "font": "DM Sans",
+            "size": 12,
+            "leading": 2.1,
+            "weight": 400,
+            "tracking": 0,
+            "contrast": 4.9
+          },
+          "measureChars": 98,
+          "max": {
+            "size": 66.2,
+            "vw": 4.6,
+            "font": "DM Sans",
+            "text": "下一站新生活，我們陪你"
+          },
+          "monoShare": 0,
+          "monoProseShare": 0,
+          "monoFamilies": [],
+          "monoSamples": [],
+          "microLabels": 14,
+          "microLabelShare": 0.123,
+          "microSamples": [
+            "168 MOVING & AUTO · 跨越距離，連結生活",
+            "01 / 168 MOVING & AUTO",
+            "YOUR NEXT CHAPTER, DELIVERED.",
+            "CALIFORNIA → YOUR NEXT CHAPTER",
+            "LET’S GET MOVING",
+            "ONE TEAM. EVERY MOVE."
+          ],
+          "upperShare": 0.14,
+          "centerShare": 0.01,
+          "smallText": 65
+        },
+        "eyebrows": [
+          {
+            "text": "168 MOVING & AUTO · 跨越距離，連結生活",
+            "above": "下一站新生活， 我們陪你一路到家。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 9,
+            "top": 195
+          },
+          {
+            "text": "ONE TEAM. EVERY MOVE.",
+            "above": "不只運送， 是替你安排好每一步。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 1108
+          },
+          {
+            "text": "COAST TO COAST",
+            "above": "不論下一站有多遠， 先把路線安排好。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 1827
+          },
+          {
+            "text": "A CLEAR WAY FORWARD",
+            "above": "把複雜留給我們， 把期待留給新生活。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 2440
+          },
+          {
+            "text": "閱讀指南",
+            "above": "04",
+            "upper": false,
+            "tracked": false,
+            "mono": false,
+            "pill": false,
+            "size": 12,
+            "top": 2554
+          },
+          {
+            "text": "THE MOVING JOURNAL",
+            "above": "搬得從容，從了解開始。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 2995
+          },
+          {
+            "text": "A FAMILIAR VOICE, A NEW BEGINNING",
+            "above": "換一座城市， 熟悉的溝通不必改變。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 3754
+          },
+          {
+            "text": "GOOD QUESTIONS. CLEAR ANSWERS.",
+            "above": "出發前，你可能想知道。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 4288
+          },
+          {
+            "text": "LET’S MAKE YOUR NEXT MOVE.",
+            "above": "下一段旅程， 從一聲你好開始。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 5028
+          }
+        ],
+        "numbered": [
+          {
+            "text": "01 / 168 MOVING & AUTO",
+            "size": 8,
+            "top": 616
+          },
+          {
+            "text": "01",
+            "size": 9,
+            "top": 1305
+          },
+          {
+            "text": "02",
+            "size": 9,
+            "top": 1305
+          },
+          {
+            "text": "03",
+            "size": 9,
+            "top": 1305
+          },
+          {
+            "text": "04",
+            "size": 9,
+            "top": 1305
+          },
+          {
+            "text": "01",
+            "size": 38,
+            "top": 2651
+          },
+          {
+            "text": "02",
+            "size": 38,
+            "top": 2651
+          },
+          {
+            "text": "03",
+            "size": 38,
+            "top": 2651
+          },
+          {
+            "text": "04",
+            "size": 38,
+            "top": 2651
+          },
+          {
+            "text": "01 / 編輯整理指南",
+            "size": 8,
+            "top": 3336
+          },
+          {
+            "text": "02 / 編輯整理指南",
+            "size": 8,
+            "top": 3336
+          },
+          {
+            "text": "03 / 編輯整理指南",
+            "size": 8,
+            "top": 3336
+          }
+        ],
+        "color": {
+          "bodyBg": "#ffffff",
+          "bodyBgHsl": {
+            "h": 0,
+            "s": 0,
+            "l": 1
+          },
+          "dark": false,
+          "sectionBgs": [
+            {
+              "color": "#142e37",
+              "top": 119,
+              "hsl": {
+                "h": 195,
+                "s": 0.47,
+                "l": 0.15
+              }
+            },
+            {
+              "color": "#f5f6f1",
+              "top": 2915,
+              "hsl": {
+                "h": 72,
+                "s": 0.22,
+                "l": 0.95
+              }
+            },
+            {
+              "color": "#f8f9f5",
+              "top": 4207,
+              "hsl": {
+                "h": 75,
+                "s": 0.25,
+                "l": 0.97
+              }
+            },
+            {
+              "color": "#d4ef78",
+              "top": 4932,
+              "hsl": {
+                "h": 74,
+                "s": 0.79,
+                "l": 0.7
+              }
+            }
+          ],
+          "textColors": [
+            {
+              "color": "#657379",
+              "share": 0.39
+            },
+            {
+              "color": "#142e37",
+              "share": 0.27
+            },
+            {
+              "color": "#596c37",
+              "share": 0.05
+            },
+            {
+              "color": "#596e50",
+              "share": 0.03
+            },
+            {
+              "color": "#92aaa6",
+              "share": 0.02
+            }
+          ],
+          "button": {
+            "bg": "#24404a",
+            "hsl": {
+              "h": 196,
+              "s": 0.35,
+              "l": 0.22
+            },
+            "fg": "#142e37"
+          },
+          "lowContrast": []
+        },
+        "buttons": {
+          "count": 12,
+          "inHero": 7,
+          "radius": 4,
+          "height": 44,
+          "withShadow": 0,
+          "withGradient": 0,
+          "mono": 0,
+          "upper": 0,
+          "heroLabels": [
+            "Skip to content",
+            "免費諮詢報價",
+            "探索我們的服務",
+            "汽車託運",
+            "跨州搬家"
+          ]
+        },
+        "surfaces": {
+          "shadowStatic": 1,
+          "shadowOverlay": 1,
+          "shadowSamples": [
+            "div.quick-quote → rgba(17, 46, 55, 0.07) 0px 14px 40px 0px"
+          ],
+          "gradients": 1,
+          "scrims": 1,
+          "gradientSamples": [
+            "div.hero-shade → linear-gradient(90deg, rgb(20, 46, 55) 2%, rgba(20, 46, 55, 0.77) 53%, rgba(20, 46, 55, 0.125))"
+          ],
+          "gradientText": 0,
+          "hairlines": 23,
+          "hairlineSamples": [
+            "header.header 1440px",
+            "div.trust-strip 1440px",
+            "a.service-card 299px",
+            "a.service-card 299px",
+            "a.service-card 299px"
+          ],
+          "outlinedBoxes": 0,
+          "dashed": 0,
+          "blurred": 0,
+          "roundedBoxes": 1,
+          "boxRadius": 7,
+          "squareMedia": 1,
+          "roundedMedia": 9,
+          "mediaRadius": 5,
+          "textShadow": 0,
+          "cardRows": [
+            {
+              "count": 4,
+              "iconTopped": false,
+              "rounded": false,
+              "top": 2624
+            },
+            {
+              "count": 3,
+              "iconTopped": false,
+              "rounded": false,
+              "top": 3162
+            }
+          ]
+        },
+        "heroMedia": [
+          {
+            "type": "img",
+            "ratio": 0.87
+          },
+          {
+            "type": "img",
+            "ratio": 0.15
+          }
+        ],
+        "nav": {
+          "links": 6,
+          "fixed": true,
+          "height": 89,
+          "floatingPill": false,
+          "blur": false
+        },
+        "fontsLoaded": [
+          "dm sans",
+          "noto sans tc"
+        ]
+      },
+      "consoleErrors": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "load": "load",
+      "screens": 7,
+      "filled": [
+        0.68,
+        0.58,
+        0.69,
+        0.66,
+        0.79,
+        1,
+        1
+      ],
+      "motion": {
+        "elements": 0,
+        "css": 0,
+        "transitions": 0,
+        "scripted": 0,
+        "videos": 0,
+        "playingVideos": 0
+      },
+      "metrics": {
+        "viewport": {
+          "w": 768,
+          "h": 1024
+        },
+        "page": {
+          "height": 6149,
+          "screens": 6,
+          "words": 285,
+          "img": 11,
+          "video": 0,
+          "canvas": 0,
+          "svg": 51,
+          "sections": 8,
+          "horizontalOverflow": 0,
+          "overflowCulprits": [],
+          "uiFragments": 0,
+          "uiAbuse": false,
+          "realPictures": 10,
+          "videoCount": 0,
+          "uiPictures": 0,
+          "pictureSamples": [
+            "road.jpg",
+            "transport.jpg",
+            "transport.jpg",
+            "moving.jpg",
+            "packing.jpg",
+            "road.jpg",
+            "transport.jpg",
+            "moving.jpg"
+          ],
+          "blendText": 0,
+          "sideScrollers": 0,
+          "brokenImages": [],
+          "emoji": []
+        },
+        "hero": {
+          "text": "168↗",
+          "words": 1,
+          "chars": 4,
+          "lines": 1,
+          "size": 39,
+          "vw": 5.1,
+          "font": "Arial",
+          "weight": 700,
+          "tracking": -0.09,
+          "leading": 1,
+          "upper": false,
+          "italic": false,
+          "mono": false,
+          "align": "left",
+          "position": "left",
+          "widthRatio": 0.09,
+          "top": 45,
+          "tag": "b",
+          "kind": "heading"
+        },
+        "h1": {
+          "text": "下一站新生活， 我們陪你一路到家。",
+          "words": 2,
+          "lines": 2,
+          "size": 37,
+          "font": "DM Sans"
+        },
+        "headings": [
+          {
+            "text": "168↗",
+            "words": 1,
+            "chars": 4,
+            "lines": 1,
+            "size": 39,
+            "vw": 5.1,
+            "font": "Arial",
+            "weight": 700,
+            "tracking": -0.09,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.09,
+            "top": 45,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "下一站新生活， 我們陪你一路到家。",
+            "words": 2,
+            "chars": 17,
+            "lines": 2,
+            "size": 37,
+            "vw": 4.8,
+            "font": "DM Sans",
+            "weight": 700,
+            "tracking": -0.04,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.54,
+            "top": 184,
+            "tag": "h1",
+            "kind": "heading"
+          },
+          {
+            "text": "不只運送， 是替你安排好每一步。",
+            "words": 2,
+            "chars": 16,
+            "lines": 2,
+            "size": 30,
+            "vw": 3.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.38,
+            "top": 984,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "不論下一站有多遠， 先把路線安排好。",
+            "words": 2,
+            "chars": 18,
+            "lines": 2,
+            "size": 30,
+            "vw": 3.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.95,
+            "top": 2036,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "把複雜留給我們， 把期待留給新生活。",
+            "words": 2,
+            "chars": 18,
+            "lines": 2,
+            "size": 30,
+            "vw": 3.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.34,
+            "top": 2853,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "01",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 32,
+            "vw": 4.2,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.45,
+            "top": 3001,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "02",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 32,
+            "vw": 4.2,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.45,
+            "top": 3001,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "03",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 32,
+            "vw": 4.2,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.45,
+            "top": 3199,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "04",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 32,
+            "vw": 4.2,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.45,
+            "top": 3199,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "搬得從容，從了解開始。",
+            "words": 1,
+            "chars": 11,
+            "lines": 1,
+            "size": 30,
+            "vw": 3.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.48,
+            "top": 3505,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "換一座城市， 熟悉的溝通不必改變。",
+            "words": 2,
+            "chars": 17,
+            "lines": 2,
+            "size": 30,
+            "vw": 3.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.45,
+            "top": 4194,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "168 HANDLED WITH CARE.",
+            "words": 4,
+            "chars": 22,
+            "lines": 1,
+            "size": 44,
+            "vw": 5.7,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.06,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.17,
+            "top": 4374,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "出發前，你可能想知道。",
+            "words": 1,
+            "chars": 11,
+            "lines": 1,
+            "size": 30,
+            "vw": 3.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.6,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.95,
+            "top": 4668,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "下一段旅程， 從一聲你好開始。",
+            "words": 2,
+            "chars": 15,
+            "lines": 2,
+            "size": 33,
+            "vw": 4.3,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.5,
+            "top": 5602,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "168↗",
+            "words": 1,
+            "chars": 4,
+            "lines": 1,
+            "size": 42,
+            "vw": 5.5,
+            "font": "Arial",
+            "weight": 700,
+            "tracking": -0.09,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.09,
+            "top": 5955,
+            "tag": "b",
+            "kind": "heading"
+          }
+        ],
+        "headingSummary": {
+          "count": 15,
+          "maxLines": 2,
+          "over2Lines": 0,
+          "statements": 0,
+          "centered": 0,
+          "medianWords": 2,
+          "mixedFontHeadings": 0
+        },
+        "type": {
+          "families": [
+            {
+              "family": "DM Sans",
+              "share": 1,
+              "mono": false
+            },
+            {
+              "family": "Arial",
+              "share": 0,
+              "mono": false
+            }
+          ],
+          "familyCount": 2,
+          "sizes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            19,
+            21,
+            22,
+            23,
+            30,
+            32,
+            33,
+            37,
+            39,
+            42,
+            44
+          ],
+          "sizeCount": 23,
+          "notLoaded": [],
+          "body": {
+            "font": "DM Sans",
+            "size": 12,
+            "leading": 2,
+            "weight": 400,
+            "tracking": 0,
+            "contrast": 4.6
+          },
+          "measureChars": 63,
+          "max": {
+            "size": 44,
+            "vw": 5.7,
+            "font": "DM Sans",
+            "text": "168"
+          },
+          "monoShare": 0,
+          "monoProseShare": 0,
+          "monoFamilies": [],
+          "monoSamples": [],
+          "microLabels": 13,
+          "microLabelShare": 0.119,
+          "microSamples": [
+            "168 MOVING & AUTO · 跨越距離，連結生活",
+            "01 / 168 MOVING & AUTO",
+            "YOUR NEXT CHAPTER, DELIVERED.",
+            "CALIFORNIA → YOUR NEXT CHAPTER",
+            "ONE TEAM. EVERY MOVE.",
+            "COAST TO COAST"
+          ],
+          "upperShare": 0.14,
+          "centerShare": 0.01,
+          "smallText": 66
+        },
+        "eyebrows": [
+          {
+            "text": "168 MOVING & AUTO · 跨越距離，連結生活",
+            "above": "下一站新生活， 我們陪你一路到家。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 7,
+            "top": 151
+          },
+          {
+            "text": "ONE TEAM. EVERY MOVE.",
+            "above": "不只運送， 是替你安排好每一步。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 953
+          },
+          {
+            "text": "COAST TO COAST",
+            "above": "不論下一站有多遠， 先把路線安排好。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 2003
+          },
+          {
+            "text": "A CLEAR WAY FORWARD",
+            "above": "把複雜留給我們， 把期待留給新生活。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 2822
+          },
+          {
+            "text": "閱讀指南",
+            "above": "02",
+            "upper": false,
+            "tracked": false,
+            "mono": false,
+            "pill": false,
+            "size": 12,
+            "top": 2904
+          },
+          {
+            "text": "THE MOVING JOURNAL",
+            "above": "搬得從容，從了解開始。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 3474
+          },
+          {
+            "text": "A FAMILIAR VOICE, A NEW BEGINNING",
+            "above": "換一座城市， 熟悉的溝通不必改變。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 4159
+          },
+          {
+            "text": "GOOD QUESTIONS. CLEAR ANSWERS.",
+            "above": "出發前，你可能想知道。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 4640
+          },
+          {
+            "text": "LET’S MAKE YOUR NEXT MOVE.",
+            "above": "下一段旅程， 從一聲你好開始。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 10,
+            "top": 5569
+          }
+        ],
+        "numbered": [
+          {
+            "text": "01 / 168 MOVING & AUTO",
+            "size": 6,
+            "top": 457
+          },
+          {
+            "text": "01",
+            "size": 9,
+            "top": 1117
+          },
+          {
+            "text": "02",
+            "size": 9,
+            "top": 1117
+          },
+          {
+            "text": "03",
+            "size": 9,
+            "top": 1521
+          },
+          {
+            "text": "04",
+            "size": 9,
+            "top": 1521
+          },
+          {
+            "text": "01",
+            "size": 32,
+            "top": 3001
+          },
+          {
+            "text": "02",
+            "size": 32,
+            "top": 3001
+          },
+          {
+            "text": "03",
+            "size": 32,
+            "top": 3199
+          },
+          {
+            "text": "04",
+            "size": 32,
+            "top": 3199
+          },
+          {
+            "text": "01 / 編輯整理指南",
+            "size": 6,
+            "top": 3758
+          },
+          {
+            "text": "02 / 編輯整理指南",
+            "size": 6,
+            "top": 3758
+          },
+          {
+            "text": "03 / 編輯整理指南",
+            "size": 6,
+            "top": 3758
+          }
+        ],
+        "color": {
+          "bodyBg": "#ffffff",
+          "bodyBgHsl": {
+            "h": 0,
+            "s": 0,
+            "l": 1
+          },
+          "dark": false,
+          "sectionBgs": [
+            {
+              "color": "#142e37",
+              "top": 102,
+              "hsl": {
+                "h": 195,
+                "s": 0.47,
+                "l": 0.15
+              }
+            },
+            {
+              "color": "#f5f6f1",
+              "top": 3394,
+              "hsl": {
+                "h": 72,
+                "s": 0.22,
+                "l": 0.95
+              }
+            },
+            {
+              "color": "#f8f9f5",
+              "top": 4559,
+              "hsl": {
+                "h": 75,
+                "s": 0.25,
+                "l": 0.97
+              }
+            },
+            {
+              "color": "#d4ef78",
+              "top": 5472,
+              "hsl": {
+                "h": 74,
+                "s": 0.79,
+                "l": 0.7
+              }
+            }
+          ],
+          "textColors": [
+            {
+              "color": "#657379",
+              "share": 0.39
+            },
+            {
+              "color": "#142e37",
+              "share": 0.26
+            },
+            {
+              "color": "#596c37",
+              "share": 0.05
+            },
+            {
+              "color": "#596e50",
+              "share": 0.03
+            },
+            {
+              "color": "#92aaa6",
+              "share": 0.02
+            }
+          ],
+          "button": {
+            "bg": "#24404a",
+            "hsl": {
+              "h": 196,
+              "s": 0.35,
+              "l": 0.22
+            },
+            "fg": "#142e37"
+          },
+          "lowContrast": []
+        },
+        "buttons": {
+          "count": 11,
+          "inHero": 6,
+          "radius": 4,
+          "height": 44,
+          "withShadow": 0,
+          "withGradient": 0,
+          "mono": 0,
+          "upper": 0,
+          "heroLabels": [
+            "Skip to content",
+            "探索我們的服務",
+            "汽車託運",
+            "跨州搬家",
+            "運車＋搬家"
+          ]
+        },
+        "surfaces": {
+          "shadowStatic": 1,
+          "shadowOverlay": 1,
+          "shadowSamples": [
+            "div.quick-quote → rgba(17, 46, 55, 0.07) 0px 14px 40px 0px"
+          ],
+          "gradients": 1,
+          "scrims": 1,
+          "gradientSamples": [
+            "div.hero-shade → linear-gradient(90deg, rgb(20, 46, 55) 2%, rgba(20, 46, 55, 0.77) 53%, rgba(20, 46, 55, 0.125))"
+          ],
+          "gradientText": 0,
+          "hairlines": 23,
+          "hairlineSamples": [
+            "header.header 768px",
+            "div.trust-strip 768px",
+            "a.service-card 353px",
+            "a.service-card 353px",
+            "a.service-card 353px"
+          ],
+          "outlinedBoxes": 0,
+          "dashed": 0,
+          "blurred": 0,
+          "roundedBoxes": 1,
+          "boxRadius": 7,
+          "squareMedia": 1,
+          "roundedMedia": 9,
+          "mediaRadius": 5,
+          "textShadow": 0,
+          "cardRows": [
+            {
+              "count": 4,
+              "iconTopped": false,
+              "rounded": false,
+              "top": 2974
+            },
+            {
+              "count": 3,
+              "iconTopped": false,
+              "rounded": false,
+              "top": 3625
+            }
+          ]
+        },
+        "heroMedia": [
+          {
+            "type": "img",
+            "ratio": 0.66
+          },
+          {
+            "type": "img",
+            "ratio": 0.14
+          }
+        ],
+        "nav": {
+          "links": 1,
+          "fixed": true,
+          "height": 74,
+          "floatingPill": false,
+          "blur": false
+        },
+        "fontsLoaded": [
+          "dm sans",
+          "noto sans tc"
+        ]
+      },
+      "consoleErrors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "load": "load",
+      "screens": 9,
+      "filled": [
+        0.8,
+        0.47,
+        0.76,
+        0.52,
+        0.79,
+        0.66,
+        0.91,
+        0.97,
+        0.96
+      ],
+      "motion": {
+        "elements": 0,
+        "css": 0,
+        "transitions": 0,
+        "scripted": 0,
+        "videos": 0,
+        "playingVideos": 0
+      },
+      "metrics": {
+        "viewport": {
+          "w": 390,
+          "h": 844
+        },
+        "page": {
+          "height": 7055,
+          "screens": 8.4,
+          "words": 281,
+          "img": 11,
+          "video": 0,
+          "canvas": 0,
+          "svg": 51,
+          "sections": 8,
+          "horizontalOverflow": 0,
+          "overflowCulprits": [],
+          "uiFragments": 0,
+          "uiAbuse": false,
+          "realPictures": 10,
+          "videoCount": 0,
+          "uiPictures": 0,
+          "pictureSamples": [
+            "road.jpg",
+            "transport.jpg",
+            "transport.jpg",
+            "moving.jpg",
+            "packing.jpg",
+            "road.jpg",
+            "transport.jpg",
+            "moving.jpg"
+          ],
+          "blendText": 0,
+          "sideScrollers": 0,
+          "brokenImages": [],
+          "emoji": []
+        },
+        "hero": {
+          "text": "下一站新生活， 我們陪你一路到家。",
+          "words": 2,
+          "chars": 17,
+          "lines": 2,
+          "size": 38,
+          "vw": 9.7,
+          "font": "DM Sans",
+          "weight": 700,
+          "tracking": -0.04,
+          "leading": 1.35,
+          "upper": false,
+          "italic": false,
+          "mono": false,
+          "align": "left",
+          "position": "center",
+          "widthRatio": 0.91,
+          "top": 166,
+          "tag": "h1",
+          "kind": "heading"
+        },
+        "h1": {
+          "text": "下一站新生活， 我們陪你一路到家。",
+          "words": 2,
+          "lines": 2,
+          "size": 38,
+          "font": "DM Sans"
+        },
+        "headings": [
+          {
+            "text": "168↗",
+            "words": 1,
+            "chars": 4,
+            "lines": 1,
+            "size": 36,
+            "vw": 9.2,
+            "font": "Arial",
+            "weight": 700,
+            "tracking": -0.09,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.16,
+            "top": 45,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "下一站新生活， 我們陪你一路到家。",
+            "words": 2,
+            "chars": 17,
+            "lines": 2,
+            "size": 38,
+            "vw": 9.7,
+            "font": "DM Sans",
+            "weight": 700,
+            "tracking": -0.04,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.91,
+            "top": 166,
+            "tag": "h1",
+            "kind": "heading"
+          },
+          {
+            "text": "你的下一站，在哪裡？",
+            "words": 1,
+            "chars": 10,
+            "lines": 1,
+            "size": 23,
+            "vw": 5.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.81,
+            "top": 754,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "不只運送， 是替你安排好每一步。",
+            "words": 2,
+            "chars": 16,
+            "lines": 2,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.91,
+            "top": 1231,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "不論下一站有多遠， 先把路線安排好。",
+            "words": 2,
+            "chars": 18,
+            "lines": 2,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.91,
+            "top": 2217,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "把複雜留給我們， 把期待留給新生活。",
+            "words": 2,
+            "chars": 18,
+            "lines": 2,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.91,
+            "top": 2887,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "01",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.43,
+            "top": 3068,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "02",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.43,
+            "top": 3068,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "03",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.43,
+            "top": 3261,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "04",
+            "words": 1,
+            "chars": 2,
+            "lines": 1,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 500,
+            "tracking": -0.06,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.43,
+            "top": 3261,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "搬得從容，從了解開始。",
+            "words": 1,
+            "chars": 11,
+            "lines": 1,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.91,
+            "top": 3537,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "168 HANDLED WITH CARE.",
+            "words": 4,
+            "chars": 22,
+            "lines": 1,
+            "size": 44,
+            "vw": 11.3,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.06,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.33,
+            "top": 4652,
+            "tag": "span",
+            "kind": "heading"
+          },
+          {
+            "text": "換一座城市， 熟悉的溝通不必改變。",
+            "words": 2,
+            "chars": 17,
+            "lines": 2,
+            "size": 30,
+            "vw": 7.7,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.91,
+            "top": 4832,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "出發前，你可能想知道。",
+            "words": 1,
+            "chars": 11,
+            "lines": 1,
+            "size": 27,
+            "vw": 6.9,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.6,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.91,
+            "top": 5258,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "+",
+            "words": 1,
+            "chars": 1,
+            "lines": 1,
+            "size": 22,
+            "vw": 5.6,
+            "font": "DM Sans",
+            "weight": 400,
+            "tracking": 0,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.09,
+            "top": 5430,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "+",
+            "words": 1,
+            "chars": 1,
+            "lines": 1,
+            "size": 22,
+            "vw": 5.6,
+            "font": "DM Sans",
+            "weight": 400,
+            "tracking": 0,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.03,
+            "top": 5593,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "+",
+            "words": 1,
+            "chars": 1,
+            "lines": 1,
+            "size": 22,
+            "vw": 5.6,
+            "font": "DM Sans",
+            "weight": 400,
+            "tracking": 0,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.03,
+            "top": 5672,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "+",
+            "words": 1,
+            "chars": 1,
+            "lines": 1,
+            "size": 22,
+            "vw": 5.6,
+            "font": "DM Sans",
+            "weight": 400,
+            "tracking": 0,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.03,
+            "top": 5750,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "+",
+            "words": 1,
+            "chars": 1,
+            "lines": 1,
+            "size": 22,
+            "vw": 5.6,
+            "font": "DM Sans",
+            "weight": 400,
+            "tracking": 0,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.03,
+            "top": 5829,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "+",
+            "words": 1,
+            "chars": 1,
+            "lines": 1,
+            "size": 22,
+            "vw": 5.6,
+            "font": "DM Sans",
+            "weight": 400,
+            "tracking": 0,
+            "leading": 1.8,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "right",
+            "widthRatio": 0.03,
+            "top": 5908,
+            "tag": "b",
+            "kind": "heading"
+          },
+          {
+            "text": "下一段旅程， 從一聲你好開始。",
+            "words": 2,
+            "chars": 15,
+            "lines": 2,
+            "size": 34,
+            "vw": 8.7,
+            "font": "DM Sans",
+            "weight": 600,
+            "tracking": -0.035,
+            "leading": 1.35,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "center",
+            "widthRatio": 0.91,
+            "top": 6097,
+            "tag": "h2",
+            "kind": "heading"
+          },
+          {
+            "text": "168↗",
+            "words": 1,
+            "chars": 4,
+            "lines": 1,
+            "size": 42,
+            "vw": 10.8,
+            "font": "Arial",
+            "weight": 700,
+            "tracking": -0.09,
+            "leading": 1,
+            "upper": false,
+            "italic": false,
+            "mono": false,
+            "align": "left",
+            "position": "left",
+            "widthRatio": 0.18,
+            "top": 6703,
+            "tag": "b",
+            "kind": "heading"
+          }
+        ],
+        "headingSummary": {
+          "count": 22,
+          "maxLines": 2,
+          "over2Lines": 0,
+          "statements": 0,
+          "centered": 0,
+          "medianWords": 1,
+          "mixedFontHeadings": 0
+        },
+        "type": {
+          "families": [
+            {
+              "family": "DM Sans",
+              "share": 1,
+              "mono": false
+            },
+            {
+              "family": "Arial",
+              "share": 0,
+              "mono": false
+            }
+          ],
+          "familyCount": 2,
+          "sizes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            19,
+            22,
+            23,
+            27,
+            30,
+            34,
+            36,
+            38,
+            42,
+            44
+          ],
+          "sizeCount": 20,
+          "notLoaded": [],
+          "body": {
+            "font": "DM Sans",
+            "size": 11,
+            "leading": 2,
+            "weight": 400,
+            "tracking": 0,
+            "contrast": 4.6
+          },
+          "measureChars": 59,
+          "max": {
+            "size": 44,
+            "vw": 11.3,
+            "font": "DM Sans",
+            "text": "168"
+          },
+          "monoShare": 0,
+          "monoProseShare": 0,
+          "monoFamilies": [],
+          "monoSamples": [],
+          "microLabels": 13,
+          "microLabelShare": 0.119,
+          "microSamples": [
+            "168 MOVING & AUTO · 跨越距離，連結生活",
+            "01 / 168 MOVING & AUTO",
+            "YOUR NEXT CHAPTER, DELIVERED.",
+            "CALIFORNIA → YOUR NEXT CHAPTER",
+            "ONE TEAM. EVERY MOVE.",
+            "COAST TO COAST"
+          ],
+          "upperShare": 0.14,
+          "centerShare": 0.01,
+          "smallText": 66
+        },
+        "eyebrows": [
+          {
+            "text": "168 MOVING & AUTO · 跨越距離，連結生活",
+            "above": "下一站新生活， 我們陪你一路到家。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 7,
+            "top": 133
+          },
+          {
+            "text": "168 原站運車實景",
+            "above": "你的下一站，在哪裡？",
+            "upper": false,
+            "tracked": false,
+            "mono": false,
+            "pill": false,
+            "size": 6,
+            "top": 702
+          },
+          {
+            "text": "ONE TEAM. EVERY MOVE.",
+            "above": "不只運送， 是替你安排好每一步。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 1204
+          },
+          {
+            "text": "COAST TO COAST",
+            "above": "不論下一站有多遠， 先把路線安排好。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 2188
+          },
+          {
+            "text": "A CLEAR WAY FORWARD",
+            "above": "把複雜留給我們， 把期待留給新生活。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 2859
+          },
+          {
+            "text": "THE MOVING JOURNAL",
+            "above": "搬得從容，從了解開始。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 3509
+          },
+          {
+            "text": "A FAMILIAR VOICE, A NEW BEGINNING",
+            "above": "換一座城市， 熟悉的溝通不必改變。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 4804
+          },
+          {
+            "text": "GOOD QUESTIONS. CLEAR ANSWERS.",
+            "above": "出發前，你可能想知道。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 5233
+          },
+          {
+            "text": "運費怎麼計算？網站能直接給最終價格嗎？",
+            "above": "+",
+            "upper": false,
+            "tracked": false,
+            "mono": false,
+            "pill": false,
+            "size": 11,
+            "top": 5574
+          },
+          {
+            "text": "LET’S MAKE YOUR NEXT MOVE.",
+            "above": "下一段旅程， 從一聲你好開始。",
+            "upper": true,
+            "tracked": true,
+            "mono": false,
+            "pill": false,
+            "size": 8,
+            "top": 6067
+          }
+        ],
+        "numbered": [
+          {
+            "text": "01 / 168 MOVING & AUTO",
+            "size": 6,
+            "top": 431
+          },
+          {
+            "text": "01",
+            "size": 7,
+            "top": 1417
+          },
+          {
+            "text": "02",
+            "size": 7,
+            "top": 1417
+          },
+          {
+            "text": "03",
+            "size": 7,
+            "top": 1769
+          },
+          {
+            "text": "04",
+            "size": 7,
+            "top": 1769
+          },
+          {
+            "text": "01",
+            "size": 30,
+            "top": 3068
+          },
+          {
+            "text": "02",
+            "size": 30,
+            "top": 3068
+          },
+          {
+            "text": "03",
+            "size": 30,
+            "top": 3261
+          },
+          {
+            "text": "04",
+            "size": 30,
+            "top": 3261
+          },
+          {
+            "text": "01 / 編輯整理指南",
+            "size": 6,
+            "top": 3886
+          },
+          {
+            "text": "02 / 編輯整理指南",
+            "size": 6,
+            "top": 4124
+          },
+          {
+            "text": "03 / 編輯整理指南",
+            "size": 6,
+            "top": 4362
+          }
+        ],
+        "color": {
+          "bodyBg": "#ffffff",
+          "bodyBgHsl": {
+            "h": 0,
+            "s": 0,
+            "l": 1
+          },
+          "dark": false,
+          "sectionBgs": [
+            {
+              "color": "#142e37",
+              "top": 98,
+              "hsl": {
+                "h": 195,
+                "s": 0.47,
+                "l": 0.15
+              }
+            },
+            {
+              "color": "#ffffff",
+              "top": 732,
+              "hsl": {
+                "h": 0,
+                "s": 0,
+                "l": 1
+              }
+            },
+            {
+              "color": "#f5f6f1",
+              "top": 888,
+              "hsl": {
+                "h": 72,
+                "s": 0.22,
+                "l": 0.95
+              }
+            },
+            {
+              "color": "#f8f9f5",
+              "top": 5182,
+              "hsl": {
+                "h": 75,
+                "s": 0.25,
+                "l": 0.97
+              }
+            },
+            {
+              "color": "#d4ef78",
+              "top": 6017,
+              "hsl": {
+                "h": 74,
+                "s": 0.79,
+                "l": 0.7
+              }
+            }
+          ],
+          "textColors": [
+            {
+              "color": "#657379",
+              "share": 0.39
+            },
+            {
+              "color": "#142e37",
+              "share": 0.26
+            },
+            {
+              "color": "#596c37",
+              "share": 0.05
+            },
+            {
+              "color": "#596e50",
+              "share": 0.03
+            },
+            {
+              "color": "#92aaa6",
+              "share": 0.02
+            }
+          ],
+          "button": {
+            "bg": "#24404a",
+            "hsl": {
+              "h": 196,
+              "s": 0.35,
+              "l": 0.22
+            },
+            "fg": "#142e37"
+          },
+          "lowContrast": []
+        },
+        "buttons": {
+          "count": 11,
+          "inHero": 5,
+          "radius": 4,
+          "height": 40,
+          "withShadow": 0,
+          "withGradient": 0,
+          "mono": 0,
+          "upper": 0,
+          "heroLabels": [
+            "Skip to content",
+            "探索我們的服務",
+            "汽車託運",
+            "跨州搬家",
+            "運車＋搬家"
+          ]
+        },
+        "surfaces": {
+          "shadowStatic": 1,
+          "shadowOverlay": 1,
+          "shadowSamples": [
+            "div.quick-quote → rgba(17, 46, 55, 0.07) 0px 14px 40px 0px"
+          ],
+          "gradients": 1,
+          "scrims": 1,
+          "gradientSamples": [
+            "div.hero-shade → linear-gradient(90deg, rgb(20, 46, 55) 2%, rgba(20, 46, 55, 0.77) 53%, rgba(20, 46, 55, 0.125))"
+          ],
+          "gradientText": 0,
+          "hairlines": 15,
+          "hairlineSamples": [
+            "header.header 390px",
+            "div.trust-strip 390px",
+            "section.faq-section 390px",
+            "details 354px",
+            "details 354px"
+          ],
+          "outlinedBoxes": 0,
+          "dashed": 0,
+          "blurred": 0,
+          "roundedBoxes": 1,
+          "boxRadius": 7,
+          "squareMedia": 1,
+          "roundedMedia": 2,
+          "mediaRadius": 6,
+          "textShadow": 0,
+          "cardRows": [
+            {
+              "count": 4,
+              "iconTopped": false,
+              "rounded": false,
+              "top": 3049
+            }
+          ]
+        },
+        "heroMedia": [
+          {
+            "type": "img",
+            "ratio": 0.88
+          },
+          {
+            "type": "img",
+            "ratio": 0.21
+          }
+        ],
+        "nav": {
+          "links": 1,
+          "fixed": true,
+          "height": 70,
+          "floatingPill": false,
+          "blur": false
+        },
+        "fontsLoaded": [
+          "dm sans",
+          "noto sans tc"
+        ]
+      },
+      "consoleErrors": []
+    }
+  ],
+  "findings": [
+    {
+      "level": "FAIL",
+      "id": "eyebrow",
+      "width": 1440,
+      "message": "9 eyebrow/kicker label(s) above headings: \"168 MOVING & AUTO · 跨越距離，連結生活\" above \"下一站新生活， 我們陪你一路到家。\"; \"ONE TEAM. EVERY MOVE.\" above \"不只運送， 是替你安排好每一步。\"; \"COAST TO COAST\" above \"不論下一站有多遠， 先把路線安排好。\"; \"A CLEAR WAY FORWARD\" above \"把複雜留給我們， 把期待留給新生活。\"; \"閱讀指南\" above \"04\"",
+      "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "numbering",
+      "width": 1440,
+      "message": "Decorative index numbers: \"01 / 168 MOVING & AUTO\", \"01\", \"02\", \"03\", \"04\", \"01\"",
+      "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "micro-label",
+      "width": 1440,
+      "message": "14 tiny uppercase letter-spaced labels (e.g. \"168 MOVING & AUTO · 跨越距離，連結生活\", \"01 / 168 MOVING & AUTO\", \"YOUR NEXT CHAPTER, DELIVERED.\", \"CALIFORNIA → YOUR NEXT CHAPTER\").",
+      "fix": "Use sentence-case text at a readable size, or delete the label.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "gradient",
+      "width": 1440,
+      "message": "1 gradient fill(s): div.hero-shade → linear-gradient(90deg, rgb(20, 46, 55) 2%, rgba(20, 46, 55, 0.77) 53%, rgba(20, 46, 55, 0.125))",
+      "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "shadow",
+      "width": 1440,
+      "message": "1 box-shadow(s) on elements at rest: div.quick-quote → rgba(17, 46, 55, 0.07) 0px 14px 40px 0px",
+      "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "hairline",
+      "width": 1440,
+      "message": "23 thin rule(s)/divider line(s): header.header 1440px | div.trust-strip 1440px | a.service-card 299px | a.service-card 299px",
+      "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "card-rows",
+      "width": 1440,
+      "message": "2 rows of identical boxed cards.",
+      "fix": "Vary the composition; not every section is a card grid.",
+      "alsoAt": [
+        768
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "size-count",
+      "width": 1440,
+      "message": "19 different font sizes (7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 22, 23, 31, 38, 42, 45, 55, 66).",
+      "fix": "A page needs about five: display, heading, lead, body, small.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "body-size",
+      "width": 1440,
+      "message": "Body text is 12px (the size most of the running text is set in).",
+      "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "grey-body",
+      "width": 1440,
+      "message": "The running text is a soft grey on its ground (4.9:1).",
+      "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "no-footage",
+      "width": 1440,
+      "message": "No video anywhere on the page.",
+      "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+    },
+    {
+      "level": "WARN",
+      "id": "measure",
+      "width": 1440,
+      "message": "Longest paragraph runs about 98 characters per line.",
+      "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch)."
+    },
+    {
+      "level": "FAIL",
+      "id": "small-text",
+      "width": 1440,
+      "message": "65 text blocks under 13px.",
+      "fix": "Nothing meant to be read goes below 13px.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "still-page",
+      "width": 1440,
+      "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+      "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+    }
+  ],
+  "images": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\desktop-fold.jpg",
+      "pages": [
+        "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\desktop-page-01.jpg",
+        "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\desktop-page-02.jpg"
+      ]
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\tablet-fold.jpg",
+      "pages": [
+        "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\tablet-page-01.jpg",
+        "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\tablet-page-02.jpg"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\mobile-fold.jpg",
+      "pages": [
+        "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\mobile-page-01.jpg",
+        "D:\\Christina\\168-unified-demo\\.taste-skill\\before\\mobile-page-02.jpg"
+      ]
+    }
+  ]
+}

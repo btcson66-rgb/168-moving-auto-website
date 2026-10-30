@@ -13,7 +13,7 @@ ASSETS = Path(__file__).parent / "dist" / "assets"
 IMG_SIZES = [
     (".service-img", "(max-width:860px) 100vw, 34vw"),
     (".guide-image", "(max-width:860px) 100vw, 34vw"),
-    (".hero-visual", "(max-width:860px) 100vw, 50vw"),
+    (".hero-visual", "100vw"),
     (".about-photo", "(max-width:860px) 100vw, 50vw"),
 ]
 
@@ -254,6 +254,8 @@ def polish_document(text, path):
     for img in s.select("img"):
         if not img.has_attr("decoding"):
             img["decoding"] = "async"
+    from midnight import apply_midnight
+    apply_midnight(s, lang)
     picturize(s)
     footer = s.select_one("footer .footer-bottom")
     if footer:

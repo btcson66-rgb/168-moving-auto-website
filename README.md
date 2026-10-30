@@ -1,5 +1,7 @@
 # 168 Moving & Auto — trilingual concept demo
 
+The 2026-10-31 midnight edition follows the user-supplied Andercore reference, with animated freight trucks and map arrows. See [design update](DESIGN_UPDATE_20261031.md), or open `/midnight-review.html` in the preview. Motion can be paused and respects reduced-motion preferences. With the preview running, `npm run qa:motion` checks actual movement and pause behavior.
+
 Buildless static site combining public information from haobun.com and carshipping168.com. Original websites are unchanged.
 
 - `dist/`: deployable HTML, CSS, JS, article archive and report.

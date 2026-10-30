@@ -1,0 +1,83 @@
+{
+  "baseCommit": "61de28ad97881ecf821eabd2a7bc78f15b8905c0",
+  "checks": [
+    "Freight truck position advances over time",
+    "Pause control freezes the freight truck",
+    "Map and fleet controls share the same pause state",
+    "Map arrow travels along its actual route",
+    "Pause control freezes the route arrow",
+    "Route selection still opens the inquiry dialog",
+    "Dallas route keeps the correct destination ZIP",
+    "Map status follows the selected route",
+    "Reduced-motion preference disables truck animation",
+    "Reduced-motion preference pauses SVG route movement",
+    "System reduced-motion preference is not overridden by the control"
+  ],
+  "responsive": [
+    {
+      "lang": "en",
+      "width": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hans",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hant",
+      "width": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hant",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hant",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    }
+  ],
+  "errors": [],
+  "checkedAt": "2026-10-30T17:36:25.625Z"
+}

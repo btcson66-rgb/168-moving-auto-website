@@ -8,6 +8,7 @@
     "build": "node scripts/py.cjs build.py",
     "check": "node scripts/py.cjs check.py",
     "qa": "node qa.cjs",
+    "qa:motion": "node motion-qa.cjs",
     "verify": "npm run build && npm run check && npm run qa",
     "report": "node scripts/py.cjs report.py",
     "report:ui": "node scripts/py.cjs ui_review.py"

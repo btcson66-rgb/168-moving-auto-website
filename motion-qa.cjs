@@ -1,0 +1,45 @@
+const {chromium}=require('playwright');
+const fs=require('fs');
+(async()=>{
+ const options={headless:true};
+ if(process.env.CHROME_EXECUTABLE_PATH)options.executablePath=process.env.CHROME_EXECUTABLE_PATH;
+ else if(process.platform==='win32'&&fs.existsSync('C:/Program Files/Google/Chrome/Application/chrome.exe'))options.executablePath='C:/Program Files/Google/Chrome/Application/chrome.exe';
+ const browser=await chromium.launch(options),context=await browser.newContext(),page=await context.newPage({viewport:{width:1440,height:1000}});
+ const output={baseCommit:'61de28ad97881ecf821eabd2a7bc78f15b8905c0',checks:[],responsive:[],errors:[]};page.on('pageerror',e=>output.errors.push(String(e)));
+ const ensure=(value,message)=>{if(!value)throw Error(message);output.checks.push(message)};
+ await page.goto('http://127.0.0.1:4180/en/');
+ ensure(await page.locator('#fleet,[data-motion-toggle]').count()===0,'Removed truck section and map playback buttons');
+ await page.locator('#routes').scrollIntoViewIfNeeded();
+ const matrix=()=>page.locator('.route-arrow').first().evaluate(el=>{const m=el.getCTM();return[m.e,m.f].join(',')});
+ const first=await matrix();await page.waitForTimeout(300);ensure(first!==await matrix(),'Map arrow advances along the route');
+ await page.waitForTimeout(4500);const final=await matrix();await page.waitForTimeout(250);ensure(final===await matrix(),'Map arrows stop after the short introduction');
+ await page.locator('[data-route]').nth(2).click();ensure(await page.locator('#quote-dialog').isVisible(),'Route selection still opens the inquiry dialog');
+ ensure(await page.locator('#inquiry-form input[name=to]').inputValue()==='75201','Dallas route keeps the correct destination ZIP');await page.keyboard.press('Escape');
+ ensure((await page.locator('.route-status').textContent()).includes('Dallas'),'Map status follows the selected route');
+ for(const lang of ['en','zh-hans','zh-hant'])for(const width of [375,768,1440]){
+  await page.setViewportSize({width,height:900});await page.goto(`http://127.0.0.1:4180/${lang}/`);
+  const record={lang,width,overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),brokenImages:await page.locator('img').evaluateAll(els=>els.filter(e=>e.complete&&e.naturalWidth===0).length),heroLines:await page.locator('.hero h1').evaluate(el=>Math.round(el.getBoundingClientRect().height/parseFloat(getComputedStyle(el).lineHeight)))};
+  output.responsive.push(record);if(record.overflow||record.brokenImages)throw Error('Responsive image or layout failure '+JSON.stringify(record));
+ }
+ const reduced=await browser.newContext({reducedMotion:'reduce'}),reducedPage=await reduced.newPage();await reducedPage.goto('http://127.0.0.1:4180/en/');await reducedPage.locator('.route-map').scrollIntoViewIfNeeded();await reducedPage.waitForTimeout(200);
+ ensure(await reducedPage.locator('.route-diagram').evaluate(el=>el.animationsPaused()),'Reduced-motion preference pauses SVG route movement');
+ await page.setViewportSize({width:1101,height:892});await page.goto('http://127.0.0.1:4180/zh-hant/');
+ const edges=await page.locator('.service-card').evaluateAll(els=>els.map(e=>e.getBoundingClientRect().bottom));
+ ensure(Math.abs(edges[0]-edges[3])<2,'Service columns align at their bottom edge');
+ ensure(await page.locator('#services h2 br').count()===0,'Services title has no forced line break');
+ ensure(await page.locator('#services .benefit-list span').count()===4,'Four trust points integrated into services');
+ await page.locator('[data-route]').first().click();await page.locator('input[name=name]').fill('Demo tester');await page.locator('input[name=email]').fill('demo@example.com');await page.locator('#inquiry-form textarea').fill('Toyota RAV4 & boxes <test>');await page.locator('#inquiry-form button[type=submit]').click();
+ await page.evaluate(()=>{window.open=(url)=>{window.__gmailURL=url;return null}});
+ await page.locator('#email-copy').check();await page.locator('#send-inquiry').click();
+ const url=new URL(await page.evaluate(()=>window.__gmailURL));
+ ensure(url.origin==='https://mail.google.com'&&url.searchParams.get('to')==='help@carshipping168.com','Gmail compose targets the company mailbox');
+ ensure(url.searchParams.get('body').includes('Toyota RAV4 & boxes <test>')&&url.searchParams.get('body').includes('Demo tester'),'Gmail preserves inquiry and contact details');
+ ensure(url.searchParams.get('cc')==='demo@example.com','Opt-in copy fills customer CC');
+ ensure((await page.locator('#email-status').textContent()).includes('尚未寄出'),'Gmail draft does not claim the message was sent');
+ const download=page.waitForEvent('download');await page.locator('#download-summary').click();const file=await download;await file.saveAs('research/test-inquiry.txt');
+ ensure(fs.readFileSync('research/test-inquiry.txt','utf8').includes('demo@example.com'),'Downloaded inquiry includes contact information');
+ await page.locator('#inquiry-wechat').click();ensure(await page.locator('#wechat-dialog').isVisible(),'WeChat contact opens from the inquiry');await page.keyboard.press('Escape');
+ await page.screenshot({path:'research/review-home.png',fullPage:true});
+ output.checkedAt=new Date().toISOString();fs.writeFileSync('research/midnight-motion-qa.json',JSON.stringify(output,null,2));console.log(JSON.stringify(output,null,2));await browser.close();
+ if(output.errors.length)process.exitCode=1;
+})().catch(e=>{console.error(e);process.exit(1)});

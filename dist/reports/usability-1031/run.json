@@ -1,0 +1,17 @@
+{
+  "project_id": "proj_4b834426ab45",
+  "graph_id": "one68_review_proj_4b834426ab45",
+  "simulation_id": "sim_9c67935baf15",
+  "model": "espner-qwen25",
+  "endpoint": "http://127.0.0.1:11434/v1",
+  "mode": "controlled OASIS interviews; manually seeded profiles and graph; not automatic ontology/config generation",
+  "source_root": "D:/Christina/168-unified-demo",
+  "base_commit": "9cae508",
+  "review": "uncommitted owner-review and planning changes",
+  "source_includes_uncommitted_changes": true,
+  "roles": 4,
+  "rounds": 2,
+  "visual_input": false,
+  "status": "completed",
+  "interviews": 8
+}

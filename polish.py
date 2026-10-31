@@ -235,11 +235,11 @@ def polish_document(text, path):
                 ],
             ):
                 card.select_one("h3").string = title
-        s.select_one(".about-photo img")["src"] = "/assets/auto-detail.jpg"
+        s.select_one(".about-photo img")["src"] = "/assets/team-loading.jpg"
         s.select_one(".about-photo img")["alt"] = (
-            "168 原站車輛運送照片"
+            "168 原站歷史文章中的家具裝車照片"
             if lang != "en"
-            else "Vehicle transport photograph from the original 168 website"
+            else "Furniture loading photograph from a historical source article"
         )
         for a in s.select(".route-map svg text"):
             a["font-size"] = "15"
@@ -256,11 +256,15 @@ def polish_document(text, path):
             img["decoding"] = "async"
     from midnight import apply_midnight
     apply_midnight(s, lang)
+    from photo_catalog import add_photo_context
+    add_photo_context(s, lang)
     picturize(s)
     footer = s.select_one("footer .footer-bottom")
     if footer:
         credit = s.new_tag("p", attrs={"class": "photo-credit"})
-        credit.string = c["credit"]
+        photo_link=s.new_tag('a',href='/photo-review.html')
+        photo_link.string={'zh-hant':'照片來源與更換說明','zh-hans':'照片来源与更换说明','en':'Photo sources and replacement notes'}[lang]
+        credit.append(photo_link)
         footer.append(credit)
         ui = s.new_tag("a", href="/ui-review.html")
         ui.string = c["ui"]

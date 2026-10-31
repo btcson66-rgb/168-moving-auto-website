@@ -156,11 +156,11 @@ def end(lang, path=""):
 def guide_cards(lang, all=False):
     c = LANGS[lang]
     gs = GUIDES[lang] if all else [GUIDES[lang][0], GUIDES[lang][1], GUIDES[lang][4]]
-    ims = ["transport.jpg", "moving.jpg", "road.jpg"]
+    from photo_catalog import GUIDE_PHOTOS, alt as photo_alt
     return (
         '<div class="guide-grid">'
         + "".join(
-            f"""<a class="guide-card" href="/{lang}/guides/{g[0]}/"><div class="guide-image"><img src="/assets/{ims[i%3]}" alt="" loading="lazy"><span>0{i+1} / {h(c['guideLabel'])}</span></div><div><h3>{h(g[1])}</h3><p>{h(g[2])}</p><span class="read-link">{h(c['read'])}{icon('arrow')}</span></div></a>"""
+            f"""<a class="guide-card" href="/{lang}/guides/{g[0]}/"><div class="guide-image"><img src="/assets/{GUIDE_PHOTOS[g[0]][0]}.jpg" alt="{h(photo_alt(g[0],lang))}" loading="lazy"><span>0{i+1} / {h(c['guideLabel'])}</span></div><div><h3>{h(g[1])}</h3><p>{h(g[2])}</p><span class="read-link">{h(c['read'])}{icon('arrow')}</span></div></a>"""
             for i, g in enumerate(gs)
         )
         + "</div>"

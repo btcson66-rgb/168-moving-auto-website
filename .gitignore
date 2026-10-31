@@ -19,3 +19,7 @@ research/*
 !research/ui-design-notes.md
 !research/responsive-ui.json
 !research/midnight-motion-qa.json
+
+.env
+.env.*
+!.env.example

@@ -425,10 +425,12 @@ def main():
     records, changes = build_archive()
     urls = []
     for lang, c in LANGS.items():
+        import planner, sys
+        write(lang + "/plan/index.html", planner.render(sys.modules[__name__], lang))
         write(lang + "/index.html", home(lang))
         write(lang + "/guides/index.html", guides_page(lang))
         write(lang + "/library/index.html", library_page(lang, len(records)))
-        urls.extend([lang + "/", lang + "/guides/"])
+        urls.extend([lang + "/", lang + "/guides/", lang + "/plan/"])
         for g in GUIDES[lang]:
             write(lang + "/guides/" + g[0] + "/index.html", guide_page(lang, g))
             urls.append(lang + "/guides/" + g[0] + "/")

@@ -1,0 +1,88 @@
+{
+  "baseCommit": "61de28ad97881ecf821eabd2a7bc78f15b8905c0",
+  "checks": [
+    "Removed truck section and map playback buttons",
+    "Map arrow advances along the route",
+    "Map arrows stop after the short introduction",
+    "Route selection still opens the inquiry dialog",
+    "Dallas route keeps the correct destination ZIP",
+    "Map status follows the selected route",
+    "Reduced-motion preference pauses SVG route movement",
+    "Service columns align at their bottom edge",
+    "Services title has no forced line break",
+    "Four trust points integrated into services",
+    "Gmail compose targets the company mailbox",
+    "Gmail preserves inquiry and contact details",
+    "Opt-in copy fills customer CC",
+    "Gmail draft does not claim the message was sent",
+    "Downloaded inquiry includes contact information",
+    "WeChat contact opens from the inquiry"
+  ],
+  "responsive": [
+    {
+      "lang": "en",
+      "width": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hans",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hant",
+      "width": 375,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hant",
+      "width": 768,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    },
+    {
+      "lang": "zh-hant",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "heroLines": 2
+    }
+  ],
+  "errors": [],
+  "checkedAt": "2026-10-31T07:00:24.498Z"
+}

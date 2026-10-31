@@ -4,14 +4,15 @@
   "private": true,
   "description": "Trilingual moving and auto transport demo, original article archive and review reports",
   "scripts": {
-    "preview": "node scripts/py.cjs -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "preview": "node scripts/py.cjs -m http.server 4180 --bind 127.0.0.1 --directory dist",
     "build": "node scripts/py.cjs build.py",
     "check": "node scripts/py.cjs check.py",
     "qa": "node qa.cjs",
     "qa:motion": "node motion-qa.cjs",
     "verify": "npm run build && npm run check && npm run qa",
     "report": "node scripts/py.cjs report.py",
-    "report:ui": "node scripts/py.cjs ui_review.py"
+    "report:ui": "node scripts/py.cjs ui_review.py",
+    "qa:discovery": "node discovery-qa.cjs"
   },
   "devDependencies": {
     "playwright": "1.64.1",

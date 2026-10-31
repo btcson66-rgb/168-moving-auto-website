@@ -1,0 +1,2197 @@
+{
+ "url": "http://127.0.0.1:4180/zh-hant/",
+ "at": "2026-10-31T09:46:43.008Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.29,
+    0.43,
+    0.58,
+    0.62,
+    1,
+    0.61,
+    0.64,
+    0.27
+   ],
+   "motion": {
+    "elements": 37,
+    "css": 35,
+    "transitions": 2,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7051,
+     "screens": 7.8,
+     "words": 197,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 49,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "auto-detail-1024.webp",
+      "transport-716.webp",
+      "moving-515.webp",
+      "packing-960.webp",
+      "road-960.webp",
+      "transport-716.webp",
+      "moving-515.webp",
+      "road-960.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "跨州的距離， 交給 168。",
+     "words": 3,
+     "chars": 14,
+     "lines": 2,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Archivo",
+     "weight": 500,
+     "tracking": -0.04,
+     "leading": 1.14,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.44,
+     "top": 307,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "跨州的距離， 交給 168。",
+     "words": 3,
+     "lines": 2,
+     "size": 64,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 48,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "跨州的距離， 交給 168。",
+      "words": 3,
+      "chars": 14,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 307,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "從路線開始",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 832,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你的搬遷，一次安排。",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 1075,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "從這座城市， 到你的下一站。",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 2482,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "搬遷流程， 每一步都清楚。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 3189,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "出發前，先了解。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 3733,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "用熟悉的語言， 安排新的生活。",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 4965,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你想知道的，先說清楚。",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.68,
+      "top": 5542,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 6247,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 6677,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Space Mono",
+       "share": 0.02,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      24,
+      28,
+      40,
+      48,
+      64
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 15,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": -0.021,
+      "contrast": 10.3
+     },
+     "measureChars": 64,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "text": "跨州的距離，交給 168。"
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0.02,
+     "monoFamilies": [
+      "Space Mono"
+     ],
+     "monoSamples": [
+      "168 / 美國跨州運輸",
+      "路線示意 / LOS ANGELES → NEW YORK"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.02,
+     "smallText": 4
+    },
+    "eyebrows": [
+     {
+      "text": "168 / 美國跨州運輸",
+      "above": "跨州的距離， 交給 168。",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 12,
+      "top": 245
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0405",
+     "bodyBgHsl": {
+      "h": 351,
+      "s": 0.47,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0405",
+       "top": 112,
+       "hsl": {
+        "h": 351,
+        "s": 0.47,
+        "l": 0.03
+       }
+      },
+      {
+       "color": "#150e0f",
+       "top": 1309,
+       "hsl": {
+        "h": 351,
+        "s": 0.2,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2b5bd",
+       "share": 0.28
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.15
+      },
+      {
+       "color": "#b5a6af",
+       "share": 0.06
+      },
+      {
+       "color": "#c2b6bc",
+       "share": 0.05
+      },
+      {
+       "color": "#bdb2b8",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#e32735",
+      "hsl": {
+       "h": 356,
+       "s": 0.77,
+       "l": 0.52
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 4,
+     "radius": 4,
+     "height": 61,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "免費諮詢報價",
+      "規劃我的搬遷",
+      "規劃我的搬遷"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 8,
+     "hairlineSamples": [
+      "div.service-tabs 680px",
+      "div.service-benefits 1200px",
+      "a.guide-card.reveal-in 1200px",
+      "a.guide-card.reveal-in 1200px",
+      "a 476px"
+     ],
+     "outlinedBoxes": 18,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 5,
+     "mediaRadius": 4,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3325
+      },
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 5668
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.73
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "archivo",
+     "space mono"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.5,
+    0.53,
+    0.57,
+    0.61,
+    1,
+    0.63,
+    0.57,
+    0.49
+   ],
+   "motion": {
+    "elements": 35,
+    "css": 35,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7751,
+     "screens": 7.6,
+     "words": 191,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 49,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "auto-detail-960.webp",
+      "transport-716.webp",
+      "moving-515.webp",
+      "packing-960.webp",
+      "road-960.webp",
+      "transport-716.webp",
+      "moving-515.webp",
+      "road-960.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "跨州的距離， 交給 168。",
+     "words": 3,
+     "chars": 14,
+     "lines": 2,
+     "size": 56,
+     "vw": 7.3,
+     "font": "Archivo",
+     "weight": 500,
+     "tracking": -0.04,
+     "leading": 1.14,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.73,
+     "top": 276,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "跨州的距離， 交給 168。",
+     "words": 3,
+     "lines": 2,
+     "size": 56,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 48,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "跨州的距離， 交給 168。",
+      "words": 3,
+      "chars": 14,
+      "lines": 2,
+      "size": 56,
+      "vw": 7.3,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 276,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "從路線開始",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 701,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你的搬遷，一次安排。",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1086,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "從這座城市， 到你的下一站。",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2583,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "搬遷流程， 每一步都清楚。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 3621,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "出發前，先了解。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.63,
+      "top": 4240,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "用熟悉的語言， 安排新的生活。",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 5455,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你想知道的，先說清楚。",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6062,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 6761,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 7373,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Space Mono",
+       "share": 0.02,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      24,
+      28,
+      36,
+      40,
+      56,
+      64
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 15,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": -0.021,
+      "contrast": 10.3
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 64,
+      "vw": 8.3,
+      "font": "Archivo",
+      "text": "168"
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0.02,
+     "monoFamilies": [
+      "Space Mono"
+     ],
+     "monoSamples": [
+      "168 / 美國跨州運輸",
+      "路線示意 / LOS ANGELES → NEW YORK"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.01,
+     "smallText": 4
+    },
+    "eyebrows": [
+     {
+      "text": "168 / 美國跨州運輸",
+      "above": "跨州的距離， 交給 168。",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 12,
+      "top": 214
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0405",
+     "bodyBgHsl": {
+      "h": 351,
+      "s": 0.47,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0405",
+       "top": 104,
+       "hsl": {
+        "h": 351,
+        "s": 0.47,
+        "l": 0.03
+       }
+      },
+      {
+       "color": "#150e0f",
+       "top": 672,
+       "hsl": {
+        "h": 351,
+        "s": 0.2,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2b5bd",
+       "share": 0.29
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.15
+      },
+      {
+       "color": "#b5a6af",
+       "share": 0.06
+      },
+      {
+       "color": "#c2b6bc",
+       "share": 0.05
+      },
+      {
+       "color": "#bdb2b8",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#0b0405",
+      "hsl": {
+       "h": 351,
+       "s": 0.47,
+       "l": 0.03
+      },
+      "fg": "#e7dce2"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 3,
+     "radius": 4,
+     "height": 61,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "規劃我的搬遷",
+      "規劃我的搬遷"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 7,
+     "hairlineSamples": [
+      "div.service-tabs 662px",
+      "div.service-benefits 720px",
+      "a.guide-card.reveal-in 720px",
+      "a.guide-card.reveal-in 720px",
+      "a 334px"
+     ],
+     "outlinedBoxes": 18,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 5,
+     "mediaRadius": 4,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1389
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3747
+      },
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6255
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.58
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "archivo",
+     "space mono"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.43,
+    0.7,
+    0.38,
+    0.68,
+    0.75,
+    0.91,
+    0.93,
+    0.6,
+    0.68,
+    0.63,
+    0.35
+   ],
+   "motion": {
+    "elements": 35,
+    "css": 35,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9073,
+     "screens": 10.8,
+     "words": 188,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 49,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "auto-detail-480.webp",
+      "transport-480.webp",
+      "auto-detail-480.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "跨州的距離， 交給 168。",
+     "words": 3,
+     "chars": 14,
+     "lines": 2,
+     "size": 44,
+     "vw": 11.3,
+     "font": "Archivo",
+     "weight": 500,
+     "tracking": -0.04,
+     "leading": 1.22,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 223,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "跨州的距離， 交給 168。",
+     "words": 3,
+     "lines": 2,
+     "size": 44,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 42,
+      "vw": 10.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 44,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "跨州的距離， 交給 168。",
+      "words": 3,
+      "chars": 14,
+      "lines": 2,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 223,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "從路線開始",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 699,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你的搬遷，一次安排。",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 23.8,
+      "vw": 6.1,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1128,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "汽車託運",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1749,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "跨州搬家",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 1903,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "彈性倉儲",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 2115,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "車輛買賣協助",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 2327,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "從這座城市， 到你的下一站。",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2618,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "搬遷流程， 每一步都清楚。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3674,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "先告訴我們需求",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 3882,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "一起確認方案",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 4050,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "準備交付出發",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 4219,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "到貨檢查簽收",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 4387,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "出發前，先了解。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4630,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "依照需求閱讀",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 4875,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "跨州運車，從準備到交車",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 5256,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "跨州搬家：先整理清單，再安排路線",
+      "words": 1,
+      "chars": 16,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 5446,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "開放式 vs. 封閉式：選適合愛車的方式",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 5636,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "用熟悉的語言， 安排新的生活。",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6251,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "你想知道的，先說清楚。",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6735,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.013,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 6946,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.013,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 7050,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.013,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 7155,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.013,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 7254,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.013,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 7353,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.013,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 7452,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 7652,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "+1 (626) 873-4458",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.015,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 7978,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "carshipping168",
+      "words": 1,
+      "chars": 14,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 8166,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "@fsp2682p",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.015,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 8264,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 8436,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 32,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Space Mono",
+       "share": 0.02,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      22,
+      24,
+      28,
+      32,
+      42,
+      44,
+      56
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 15,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": -0.021,
+      "contrast": 10.3
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Archivo",
+      "text": "168"
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0.02,
+     "monoFamilies": [
+      "Space Mono"
+     ],
+     "monoSamples": [
+      "168 / 美國跨州運輸",
+      "路線示意 / LOS ANGELES → NEW YORK"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.01,
+     "smallText": 11
+    },
+    "eyebrows": [
+     {
+      "text": "168 / 美國跨州運輸",
+      "above": "跨州的距離， 交給 168。",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 164
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0405",
+     "bodyBgHsl": {
+      "h": 351,
+      "s": 0.47,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0405",
+       "top": 100,
+       "hsl": {
+        "h": 351,
+        "s": 0.47,
+        "l": 0.03
+       }
+      },
+      {
+       "color": "#150e0f",
+       "top": 674,
+       "hsl": {
+        "h": 351,
+        "s": 0.2,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2b5bd",
+       "share": 0.29
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.16
+      },
+      {
+       "color": "#b5a6af",
+       "share": 0.06
+      },
+      {
+       "color": "#c2b6bc",
+       "share": 0.05
+      },
+      {
+       "color": "#bdb2b8",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#0b0405",
+      "hsl": {
+       "h": 351,
+       "s": 0.47,
+       "l": 0.03
+      },
+      "fg": "#e7dce2"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 2,
+     "radius": 4,
+     "height": 59,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "規劃我的搬遷"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 8,
+     "hairlineSamples": [
+      "div.service-tabs 308px",
+      "div.service-benefits 350px",
+      "a.guide-card.reveal-in 350px",
+      "a.guide-card.reveal-in 350px",
+      "a 320px"
+     ],
+     "outlinedBoxes": 18,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 2,
+     "mediaRadius": 4,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1434
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3856
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.71
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 70,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "archivo",
+     "space mono"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"168 / 美國跨州運輸\" above \"跨州的距離， 交給 168。\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: Space Mono — e.g. \"168 / 美國跨州運輸\", \"路線示意 / LOS ANGELES → NEW YORK\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "8 thin rule(s)/divider line(s): div.service-tabs 680px | div.service-benefits 1200px | a.guide-card.reveal-in 1200px | a.guide-card.reveal-in 1200px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "18 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (12, 13, 14, 15, 16, 24, 28, 40, 48, 64).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 15px.",
+   "fix": "Body copy 16–20px.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "4 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\desktop-page-01.jpg",
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\tablet-page-01.jpg",
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\mobile-page-01.jpg",
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-home\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

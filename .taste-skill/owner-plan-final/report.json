@@ -1,0 +1,1689 @@
+{
+ "url": "http://127.0.0.1:4180/zh-hant/plan/",
+ "at": "2026-10-31T09:52:06.976Z",
+ "allow": [
+  "hairline",
+  "outlined-box"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.35,
+    0.4,
+    0.28,
+    0.29,
+    0.27
+   ],
+   "motion": {
+    "elements": 5,
+    "css": 5,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3707,
+     "screens": 4.1,
+     "words": 155,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 20,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "把搬遷細節，先安排清楚。",
+     "words": 1,
+     "chars": 12,
+     "lines": 1,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Archivo",
+     "weight": 500,
+     "tracking": -0.02,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.76,
+     "top": 180,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "把搬遷細節，先安排清楚。",
+     "words": 1,
+     "lines": 1,
+     "size": 64,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 48,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "把搬遷細節，先安排清楚。",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 180,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "確認路線與日期",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 670,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "分開列出車輛與搬家物品",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 930,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "確認兩地搬運條件",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 1190,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "釐清運送與倉儲選項",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 1420,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "看懂報價，再確認安排",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 1650,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交接前後保留紀錄",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 1910,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把需求交給專員，保留自己的副本",
+      "words": 1,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 2150,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "想看過去的經驗？",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 2457,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 2903,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 3333,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      16,
+      24,
+      28,
+      40,
+      48,
+      64
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": -0.02,
+      "contrast": 10.3
+     },
+     "measureChars": 78,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "text": "把搬遷細節，先安排清楚。"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0405",
+     "bodyBgHsl": {
+      "h": 351,
+      "s": 0.47,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0405",
+       "top": 2706,
+       "hsl": {
+        "h": 351,
+        "s": 0.47,
+        "l": 0.03
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2b5bd",
+       "share": 0.43
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.19
+      },
+      {
+       "color": "#f1e5eb",
+       "share": 0.16
+      },
+      {
+       "color": "#b5a6af",
+       "share": 0.07
+      },
+      {
+       "color": "#bdaeb7",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#150e0f",
+      "hsl": {
+       "h": 351,
+       "s": 0.2,
+       "l": 0.07
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 9,
+     "radius": 4,
+     "height": 63,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "免費諮詢報價",
+      "填寫詢價資料",
+      "確認路線與日期",
+      "分開列出車輛與搬家物品"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "li#plan-step-1.plan-step 796px",
+      "li#plan-step-2.plan-step 796px",
+      "li#plan-step-3.plan-step 796px",
+      "li#plan-step-4.plan-step 796px",
+      "li#plan-step-5.plan-step 796px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 639
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "archivo"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.49,
+    0.31,
+    0.63,
+    0.43,
+    0.49
+   ],
+   "motion": {
+    "elements": 5,
+    "css": 5,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4429,
+     "screens": 4.3,
+     "words": 149,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 20,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "把搬遷細節，先安排清楚。",
+     "words": 1,
+     "chars": 12,
+     "lines": 1,
+     "size": 50,
+     "vw": 6.5,
+     "font": "Archivo",
+     "weight": 500,
+     "tracking": -0.02,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 172,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "把搬遷細節，先安排清楚。",
+     "words": 1,
+     "lines": 1,
+     "size": 50,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 48,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "把搬遷細節，先安排清楚。",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 50,
+      "vw": 6.5,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 172,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "確認路線與日期",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 718,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "分開列出車輛與搬家物品",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 978,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "確認兩地搬運條件",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1279,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "釐清運送與倉儲選項",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1509,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "看懂報價，再確認安排",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1739,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交接前後保留紀錄",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1999,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把需求交給專員，保留自己的副本",
+      "words": 1,
+      "chars": 15,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2773,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "想看過去的經驗？",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3081,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 3439,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 4052,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      24,
+      28,
+      40,
+      50,
+      64
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": -0.02,
+      "contrast": 10.3
+     },
+     "measureChars": 78,
+     "max": {
+      "size": 64,
+      "vw": 8.3,
+      "font": "Archivo",
+      "text": "168"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0405",
+     "bodyBgHsl": {
+      "h": 351,
+      "s": 0.47,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#150e0f",
+       "top": 2266,
+       "hsl": {
+        "h": 351,
+        "s": 0.2,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0b0405",
+       "top": 3329,
+       "hsl": {
+        "h": 351,
+        "s": 0.47,
+        "l": 0.03
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2b5bd",
+       "share": 0.44
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.19
+      },
+      {
+       "color": "#f1e5eb",
+       "share": 0.16
+      },
+      {
+       "color": "#b5a6af",
+       "share": 0.07
+      },
+      {
+       "color": "#bdaeb7",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#150e0f",
+      "hsl": {
+       "h": 351,
+       "s": 0.2,
+       "l": 0.07
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 8,
+     "radius": 4,
+     "height": 63,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "填寫詢價資料",
+      "確認路線與日期",
+      "分開列出車輛與搬家物品",
+      "確認兩地搬運條件"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 11,
+     "hairlineSamples": [
+      "li#plan-step-1.plan-step 696px",
+      "li#plan-step-2.plan-step 696px",
+      "li#plan-step-3.plan-step 696px",
+      "li#plan-step-4.plan-step 696px",
+      "li#plan-step-5.plan-step 696px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "archivo"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.53,
+    0.52,
+    0.42,
+    0.61,
+    0.5,
+    0.63,
+    0.39
+   ],
+   "motion": {
+    "elements": 5,
+    "css": 5,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5834,
+     "screens": 6.9,
+     "words": 146,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 20,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "168",
+     "words": 1,
+     "chars": 3,
+     "lines": 1,
+     "size": 42,
+     "vw": 10.8,
+     "font": "Archivo",
+     "weight": 500,
+     "tracking": -0.08,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.16,
+     "top": 44,
+     "tag": "b",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "把搬遷細節，先安排清楚。",
+     "words": 1,
+     "lines": 2,
+     "size": 36,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 42,
+      "vw": 10.8,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 44,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "把搬遷細節，先安排清楚。",
+      "words": 1,
+      "chars": 12,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 145,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "確認路線與日期",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 1037,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "分開列出車輛與搬家物品",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 1363,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "確認兩地搬運條件",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 1731,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "釐清運送與倉儲選項",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2058,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "看懂報價，再確認安排",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2384,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交接前後保留紀錄",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2711,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "詢價前，檢查這份清單",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 3094,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把需求交給專員，保留自己的副本",
+      "words": 1,
+      "chars": 15,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3578,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "想看過去的經驗？",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3974,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "準備好下一站了嗎？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.22,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 4398,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "+1 (626) 873-4458",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.015,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 4725,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "carshipping168",
+      "words": 1,
+      "chars": 14,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 4915,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "@fsp2682p",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.015,
+      "leading": 1.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 5015,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "168",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Archivo",
+      "weight": 500,
+      "tracking": -0.08,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 5187,
+      "tag": "b",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      22,
+      24,
+      32,
+      36,
+      42,
+      56
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": -0.02,
+      "contrast": 10.3
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Archivo",
+      "text": "168"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0405",
+     "bodyBgHsl": {
+      "h": 351,
+      "s": 0.47,
+      "l": 0.03
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#150e0f",
+       "top": 3071,
+       "hsl": {
+        "h": 351,
+        "s": 0.2,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0b0405",
+       "top": 4318,
+       "hsl": {
+        "h": 351,
+        "s": 0.47,
+        "l": 0.03
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2b5bd",
+       "share": 0.44
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.19
+      },
+      {
+       "color": "#f1e5eb",
+       "share": 0.16
+      },
+      {
+       "color": "#b5a6af",
+       "share": 0.07
+      },
+      {
+       "color": "#bdaeb7",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#150e0f",
+      "hsl": {
+       "h": 351,
+       "s": 0.2,
+       "l": 0.07
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 7,
+     "radius": 4,
+     "height": 63,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "填寫詢價資料",
+      "確認路線與日期",
+      "分開列出車輛與搬家物品",
+      "確認兩地搬運條件"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "li#plan-step-1.plan-step 326px",
+      "li#plan-step-2.plan-step 326px",
+      "li#plan-step-3.plan-step 326px",
+      "li#plan-step-4.plan-step 326px",
+      "li#plan-step-5.plan-step 326px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1005
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 70,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "archivo"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 64px (4.4vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 5 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 390,
+   "message": "10 different font sizes (13, 14, 15, 16, 22, 24, 32, 36, 42, 56).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-plan-final\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-plan-final\\desktop-page-01.jpg",
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-plan-final\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-plan-final\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-plan-final\\tablet-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-plan-final\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Christina\\168-unified-demo\\.taste-skill\\owner-plan-final\\mobile-page-01.jpg"
+   ]
+  }
+ ]
+}

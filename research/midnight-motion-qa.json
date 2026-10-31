@@ -1,17 +1,22 @@
 {
   "baseCommit": "61de28ad97881ecf821eabd2a7bc78f15b8905c0",
   "checks": [
-    "Freight truck position advances over time",
-    "Pause control freezes the freight truck",
-    "Map and fleet controls share the same pause state",
-    "Map arrow travels along its actual route",
-    "Pause control freezes the route arrow",
+    "Removed truck section and map playback buttons",
+    "Map arrow advances along the route",
+    "Map arrows stop after the short introduction",
     "Route selection still opens the inquiry dialog",
     "Dallas route keeps the correct destination ZIP",
     "Map status follows the selected route",
-    "Reduced-motion preference disables truck animation",
     "Reduced-motion preference pauses SVG route movement",
-    "System reduced-motion preference is not overridden by the control"
+    "Service columns align at their bottom edge",
+    "Services title has no forced line break",
+    "Four trust points integrated into services",
+    "Gmail compose targets the company mailbox",
+    "Gmail preserves inquiry and contact details",
+    "Opt-in copy fills customer CC",
+    "Gmail draft does not claim the message was sent",
+    "Downloaded inquiry includes contact information",
+    "WeChat contact opens from the inquiry"
   ],
   "responsive": [
     {
@@ -79,5 +84,5 @@
     }
   ],
   "errors": [],
-  "checkedAt": "2026-10-30T17:36:25.625Z"
+  "checkedAt": "2026-10-31T09:52:57.984Z"
 }

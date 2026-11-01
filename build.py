@@ -394,7 +394,7 @@ def build_archive():
             archive=True,
             html_lang=alang,
         ) + header("zh-hant")
-        s += f'<main id="main" class="original-article wrap"><a href="/zh-hant/library/">← 繁體中文</a> · <a href="/zh-hans/library/">简体中文</a> · <a href="/en/library/">English</a><p class="eyebrow">ORIGINAL-LANGUAGE ARCHIVE · 原文封存</p><h1>{h(r["title"])}</h1><aside class="editor-note"><p>本頁正文保留原站語言與敘述，未全文翻譯、未背書其時效或正確性。歷史費用不是現行報價。<br>Original-language text, not a current offer or an independently verified account.</p></aside><p>{h(r["date"])}</p><p><a href="{h(r["source"])}" target="_blank" rel="noopener">查看原站 / View source ↗</a></p><article class="original-body" lang="{alang}">{body}</article></main>'
+        s += f'<main id="main" class="original-article wrap"><a href="/zh-hant/library/">← 繁體中文</a> · <a href="/zh-hans/library/">简体中文</a> · <a href="/en/library/">English</a><p class="eyebrow">ORIGINAL-LANGUAGE ARCHIVE · 原文封存</p><h1>{h(r["title"])}</h1><aside class="editor-note"><p>本頁正文保留原站語言與敘述，未全文翻譯、未背書其時效或正確性。歷史費用不是現行報價。<br>Original-language text, not a current offer or an independently verified account.</p></aside><p>{h(r["date"])}</p><p><a class="source-link" href="{h(r["source"])}" target="_blank" rel="noopener">查看原站 / View source ↗</a></p><article class="original-body" lang="{alang}">{body}</article></main>'
         write(
             "original/" + r["id"] + "/index.html",
             s + footer("zh-hant") + end("zh-hant", "library/"),

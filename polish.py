@@ -9,12 +9,19 @@ from content import CONTENT_DATE
 from optimize_images import variants
 
 ASSETS = Path(__file__).parent / "dist" / "assets"
-# srcset `sizes` per image container (layout widths from style.css breakpoints).
+# srcset `sizes` per image container, measured against style.css breakpoints
+# (580/860/1180px). Thumbnails must not claim viewport-relative widths, or the
+# browser downloads 2-4x the pixels it shows.
 IMG_SIZES = [
-    (".service-img", "(max-width:860px) 100vw, 34vw"),
-    (".guide-image", "(max-width:860px) 100vw, 34vw"),
     (".hero-visual", "100vw"),
-    (".about-photo", "(max-width:860px) 100vw, 50vw"),
+    (".about-photo", "(max-width:580px) 92vw, 48vw"),
+    (".service-card:first-child .service-img", "(max-width:580px) 92vw, 46vw"),
+    (
+        ".service-img",
+        "(max-width:580px) 90px, (max-width:860px) 42vw, (max-width:1180px) 100px, 130px",
+    ),
+    (".editorial-guides .guide-image", "(max-width:580px) 90px, (max-width:860px) 170px, 210px"),
+    (".guide-image", "(max-width:580px) 92vw, 46vw"),
 ]
 
 
@@ -42,7 +49,9 @@ def picturize(s):
             continue
         sizes = "100vw"
         for sel, val in IMG_SIZES:
-            if img.find_parent(class_=sel[1:]):
+            # Identity, not ==: bs4 compares tags by markup, and the same
+            # <img> markup can sit in more than one container.
+            if any(x is img for x in s.select(sel + " img")):
                 sizes = val
                 break
         pic = s.new_tag("picture")

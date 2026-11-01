@@ -1,5 +1,6 @@
 node_modules/
-.openai/
+.openai/*
+!.openai/hosting.json
 *.tar.gz
 *.zip
 __pycache__/

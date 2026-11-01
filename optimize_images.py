@@ -11,6 +11,7 @@ from PIL import Image
 
 ASSETS = Path(__file__).parent / "dist" / "assets"
 SOURCES = ["road", "packing", "transport", "moving", "auto-detail"]
+SOURCES += ['guide-auto','guide-moving','guide-storage','guide-buy-sell','guide-open-enclosed','guide-pricing','guide-luggage','guide-student','team-loading','service-moving','service-storage']
 TARGET_WIDTHS = (480, 960, 1600)
 QUALITY = 78
 

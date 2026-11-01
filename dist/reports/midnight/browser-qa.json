@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "lang": "zh-hant",
+      "width": 1440,
+      "path": "",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 1440,
+      "path": "guides/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/guides/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 1440,
+      "path": "guides/auto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/guides/auto/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 1440,
+      "path": "library/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/library/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 390,
+      "path": "",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 390,
+      "path": "guides/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/guides/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 390,
+      "path": "guides/auto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/guides/auto/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 390,
+      "path": "library/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/library/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1440,
+      "path": "",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1440,
+      "path": "guides/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/guides/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1440,
+      "path": "guides/auto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/guides/auto/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1440,
+      "path": "library/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/library/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 390,
+      "path": "",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 390,
+      "path": "guides/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/guides/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 390,
+      "path": "guides/auto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/guides/auto/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 390,
+      "path": "library/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/library/"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "path": "",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "path": "guides/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "path": "guides/auto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/auto/"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "path": "library/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/library/"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "path": "",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "path": "guides/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "path": "guides/auto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/guides/auto/"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "path": "library/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/library/"
+    }
+  ],
+  "interactions": [
+    "Language switching preserves route and selected service",
+    "Summary renders input as text and downloads locally",
+    "Identical ZIP validation",
+    "Route button fills inquiry",
+    "Article search: 2 original articles",
+    "Original article readable",
+    "Mobile menu and anchor navigation",
+    "Mobile menu inquiry action opens dialog and closes navigation"
+  ],
+  "accessibility": [
+    {
+      "lang": "zh-hant",
+      "violations": []
+    },
+    {
+      "lang": "zh-hans",
+      "violations": []
+    },
+    {
+      "lang": "en",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

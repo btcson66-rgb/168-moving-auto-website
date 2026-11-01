@@ -1,5 +1,7 @@
 # 168 Moving & Auto — trilingual concept demo
 
+The 2026-10-31 midnight edition follows the user-supplied Andercore reference, with animated freight trucks and map arrows. See [design update](DESIGN_UPDATE_20261031.md), or open `/midnight-review.html` in the preview. Motion can be paused and respects reduced-motion preferences. With the preview running, `npm run qa:motion` checks actual movement and pause behavior.
+
 Buildless static site combining public information from haobun.com and carshipping168.com. Original websites are unchanged.
 
 - `dist/`: deployable HTML, CSS, JS, article archive and report.
@@ -37,3 +39,6 @@ npm run preview
 Open `http://127.0.0.1:4173/zh-hant/`. Other language pages: `/en/`, `/zh-hans/`. Reports: `/report.html` and `/ui-review.html`. On Windows, `start-demo.cmd` is also available.
 
 The prebuilt `dist/` can be served without Node dependencies. The original-language archive is not fully translated. Browser QA runs on Windows, macOS and Linux (set `CHROME_PATH` to use a specific Chrome). Taste scripts belong to the installed local skill and are not vendored; their result JSON and screenshots are retained in `.taste-skill/` and `dist/reports/ui/`.
+
+
+2026-10-31 owner review: preview now uses port 4180. Dedicated planning pages are at /zh-hant/plan/, /zh-hans/plan/ and /en/plan/. Latest changes: OWNER_REVIEW_20261031.md and /owner-review.html. Gmail creates a user-reviewed draft; it does not send automatically. Run npm run qa:discovery with preview running for planner/internal-link verification.

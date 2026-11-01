@@ -1,0 +1,91 @@
+{
+  "checks": [
+    "zh-hant: 205 original articles have static links",
+    "zh-hans: 205 original articles have static links",
+    "en: 205 original articles have static links",
+    "Quick form carries route to planner",
+    "Planner language switch retains route",
+    "Planner opens inquiry with route",
+    "Copy option requires an email address",
+    "Inquiry can be prepared without an email address",
+    "Guide links to three historical originals",
+    "Original article links back to guides"
+  ],
+  "pages": [
+    {
+      "lang": "zh-hant",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "lang": "zh-hant",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "lang": "zh-hant",
+      "width": 1101,
+      "overflow": false
+    },
+    {
+      "lang": "zh-hant",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "lang": "zh-hans",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1101,
+      "overflow": false
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 1101,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "lang": "zh-hant",
+      "violations": []
+    },
+    {
+      "lang": "zh-hans",
+      "violations": []
+    },
+    {
+      "lang": "en",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

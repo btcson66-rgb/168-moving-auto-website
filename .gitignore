@@ -1,5 +1,6 @@
 node_modules/
-.openai/
+.openai/*
+!.openai/hosting.json
 *.tar.gz
 *.zip
 __pycache__/
@@ -18,3 +19,8 @@ research/*
 !research/ui-original-preservation.json
 !research/ui-design-notes.md
 !research/responsive-ui.json
+!research/midnight-motion-qa.json
+
+.env
+.env.*
+!.env.example

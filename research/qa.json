@@ -12,6 +12,15 @@
     {
       "lang": "zh-hant",
       "width": 1440,
+      "path": "plan/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/plan/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 1440,
       "path": "guides/",
       "status": 200,
       "overflow": false,
@@ -48,6 +57,15 @@
     {
       "lang": "zh-hant",
       "width": 390,
+      "path": "plan/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hant/plan/"
+    },
+    {
+      "lang": "zh-hant",
+      "width": 390,
       "path": "guides/",
       "status": 200,
       "overflow": false,
@@ -84,6 +102,15 @@
     {
       "lang": "zh-hans",
       "width": 1440,
+      "path": "plan/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/plan/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1440,
       "path": "guides/",
       "status": 200,
       "overflow": false,
@@ -120,6 +147,15 @@
     {
       "lang": "zh-hans",
       "width": 390,
+      "path": "plan/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/zh-hans/plan/"
+    },
+    {
+      "lang": "zh-hans",
+      "width": 390,
       "path": "guides/",
       "status": 200,
       "overflow": false,
@@ -156,6 +192,15 @@
     {
       "lang": "en",
       "width": 1440,
+      "path": "plan/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/plan/"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
       "path": "guides/",
       "status": 200,
       "overflow": false,
@@ -188,6 +233,15 @@
       "overflow": false,
       "h1": 1,
       "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "path": "plan/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://one68-moving-demo-20261030.aa920602.chatgpt.site/en/plan/"
     },
     {
       "lang": "en",

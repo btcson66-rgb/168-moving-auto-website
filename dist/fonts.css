@@ -1,3 +1,3 @@
 @font-face{font-family:Erode;src:url('/assets/erode-400.woff2') format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:Erode;src:url('/assets/erode-500.woff2') format('woff2');font-weight:500;font-display:swap}
-@font-face{font-family:Erode;src:url('/assets/erode-600.woff2') format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:Erode;src:url('/assets/erode-600.woff2') format('woff2');font-weight:600;font-display:swap}@font-face{font-family:LatinPunct;src:local("Helvetica Neue"),local("Arial"),local("Segoe UI"),local("Roboto"),local("Liberation Sans"),local("DejaVu Sans");unicode-range:U+2013-2014,U+2018-201F,U+2026}
